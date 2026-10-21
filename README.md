@@ -81,8 +81,3 @@ To host this portfolio live on GitHub Pages:
 - **University:** Technische Hochschule Ingolstadt (THI) – Esplanade 10, 85049 Ingolstadt
 
 © 2026 Mohsen Karim khah. All rights reserved.
-
----
-
-### نحوه استفاده:
-در گیت‌هاب هنگام ساخت ریپازیتوری یا بعد از آپلود `index.html`، می‌توانید روی **Add file > Create new file** کلیک کرده، نام فایل را `README.md` بگذارید و متن بالا را داخل آن کپی و ذخیره کنید. اکنون ریپازیتوری شما از لحاظ فنی، محتوایی و نمایشی به صورت ۱۰۰٪ کامل و آماده ارائه است.
