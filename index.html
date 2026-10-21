@@ -1,0 +1,2752 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohsen Karim khah | Senior Mechanical Engineer · M.Eng. THI Ingolstadt</title>
+  <meta name="description" content="Executive Engineering Portfolio & Dossier of Mohsen Karim khah. Senior Mechanical Engineer specializing in Rotary Equipment, Major Overhaul, API 610/682, ISO 10816, Industrial Hydraulics, and CAD/CAE. M.Eng. Student at Technische Hochschule Ingolstadt (THI), Germany." />
+  <meta property="og:title" content="Mohsen Karim khah - Senior Mechanical Engineer" />
+  <meta property="og:description" content="M.Eng. Student at THI Ingolstadt. 8+ years industrial track record in Rotary Equipment, Major Overhaul, and Reliability Engineering." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Plus Jakarta Sans (Modern Latin), Vazirmatn (Universal Persian), JetBrains Mono (Technical Numerals) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Vazirmatn:wght@200;300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              400: '#60A5FA',
+              500: '#3B82F6',
+              600: '#2563EB',
+              700: '#1D4ED8'
+            },
+            surface: {
+              950: '#070A12',
+              900: '#0B0F19',
+              850: '#101626',
+              800: '#172033',
+              700: '#1E293B',
+              600: '#334155',
+              500: '#475569',
+              400: '#64748B',
+              300: '#94A3B8',
+              200: '#CBD5E1',
+              100: '#E2E8F0'
+            },
+            amber: {
+              400: '#FBBF24',
+              500: '#F59E0B',
+              600: '#D97706'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+            vazir: ['Vazirmatn', 'Tahoma', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Ultra-Sleek Modern Glass Aesthetic (Linear & Apple Dark Design Language) */
+    html {
+      color-scheme: dark;
+    }
+    body {
+      background-color: #070A12;
+      color: #E2E8F0;
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    /* Complete Persian Typography: Enforced strictly across RTL */
+    [dir="rtl"],
+    [dir="rtl"] body,
+    [dir="rtl"] h1,
+    [dir="rtl"] h2,
+    [dir="rtl"] h3,
+    [dir="rtl"] h4,
+    [dir="rtl"] h5,
+    [dir="rtl"] h6,
+    [dir="rtl"] p,
+    [dir="rtl"] a,
+    [dir="rtl"] button:not(.font-num),
+    [dir="rtl"] input,
+    [dir="rtl"] select,
+    [dir="rtl"] textarea,
+    [dir="rtl"] label,
+    [dir="rtl"] li,
+    [dir="rtl"] span:not(.font-num) {
+      font-family: 'Vazirmatn', system-ui, -apple-system, sans-serif !important;
+      letter-spacing: normal !important;
+    }
+
+    /* Technical Numerals, Years, Durations, Metrics & Standards across ALL languages */
+    .font-num,
+    [dir="rtl"] .font-num {
+      font-family: 'JetBrains Mono', monospace !important;
+      font-feature-settings: "tnum" 1, "zero" 1 !important;
+      direction: ltr !important;
+      display: inline-block;
+      letter-spacing: -0.01em;
+    }
+
+    /* Frosted Glass Surfaces */
+    .glass-card {
+      background-color: rgba(16, 22, 38, 0.75);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .glass-card:hover {
+      border-color: rgba(255, 255, 255, 0.2);
+      background-color: rgba(23, 32, 51, 0.85);
+    }
+
+    /* Ambient Glow */
+    .glow-accent {
+      background: radial-gradient(circle at 50% 0%, rgba(37, 99, 235, 0.22) 0%, transparent 68%);
+    }
+
+    /* Full-Featured Live In-Place Editor Highlighting */
+    .edit-active [contenteditable="true"] {
+      outline: 2px dashed #F59E0B !important;
+      outline-offset: 3px;
+      background-color: rgba(245, 158, 11, 0.1) !important;
+      border-radius: 6px;
+      cursor: text;
+    }
+    .edit-active [contenteditable="true"]:focus {
+      outline: 2px solid #FBBF24 !important;
+      background-color: rgba(245, 158, 11, 0.2) !important;
+    }
+
+    /* Minimal Scrollbar */
+    ::-webkit-scrollbar {
+      width: 7px;
+      height: 7px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #070A12;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1E293B;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #334155;
+    }
+
+    /* European DIN A4 2-Page Standard Print Stylesheet */
+    @media print {
+      @page {
+        size: A4 portrait;
+        margin: 8mm 11mm;
+      }
+      body {
+        background: #FFFFFF !important;
+        color: #0F172A !important;
+        font-size: 8.5pt !important;
+        line-height: 1.35 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      header, main, footer, #edit-banner, #editor-modal, #inquiry-modal, #help-modal, #toast-container, .no-print {
+        display: none !important;
+      }
+      #print-resume-dossier {
+        display: block !important;
+      }
+      .print-page-break {
+        page-break-before: always;
+        break-before: page;
+      }
+      .page-break-avoid {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body class="min-h-screen text-surface-100 flex flex-col selection:bg-brand-600 selection:text-white">
+
+  <!-- TOP BAR (Minimalist 3-Zone Architecture) -->
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-surface-950/85 border-b border-white/5 no-print">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-6">
+      
+      <!-- Zone 1: Wordmark & Status -->
+      <div class="flex items-center gap-3">
+        <a href="#hero" class="text-base sm:text-lg font-bold tracking-tight text-white hover:text-brand-400 transition whitespace-nowrap shrink-0" data-edit-path="profile.name">
+          Mohsen Karim khah
+        </a>
+        <span class="hidden lg:inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span data-edit-path="ui.status_badge">Available for Engineering Roles in Germany</span>
+        </span>
+      </div>
+
+      <!-- Zone 2: Navigation Links -->
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-surface-300">
+        <a href="#case-studies" class="hover:text-white transition whitespace-nowrap shrink-0 py-1" data-nav="nav_cases">Projekte</a>
+        <a href="#timeline-section" class="hover:text-white transition whitespace-nowrap shrink-0 py-1" data-nav="nav_timeline">Werdegang</a>
+        <a href="#competencies-section" class="hover:text-white transition whitespace-nowrap shrink-0 py-1" data-nav="nav_competencies">Kompetenzen</a>
+        <a href="#education-section" class="hover:text-white transition whitespace-nowrap shrink-0 py-1" data-nav="nav_education">Buch</a>
+      </nav>
+
+      <!-- Zone 3: Controls (Date Switcher, Lang, Share, PDF, Full Editor) -->
+      <div class="flex items-center gap-2 sm:gap-2.5 shrink-0">
+        
+        <!-- Gregorian / Jalali Date Toggle -->
+        <div class="inline-flex rounded-lg bg-surface-900 p-0.5 border border-white/10 text-xs font-medium" role="group" aria-label="Calendar Switcher">
+          <button type="button" onclick="setCalendarMode('gregorian')" id="cal-btn-gregorian" class="px-2.5 py-1 rounded-md transition text-white bg-brand-600 font-num" title="Gregorian Calendar / تقویم میلادی">
+            <span data-ui="cal_gregorian">AD</span>
+          </button>
+          <button type="button" onclick="setCalendarMode('jalali')" id="cal-btn-jalali" class="px-2.5 py-1 rounded-md transition text-surface-400 hover:text-white font-vazir" title="Solar Hijri Calendar / تقویم شمسی">
+            <span data-ui="cal_jalali">شمسی</span>
+          </button>
+        </div>
+
+        <!-- Language Segmented Control -->
+        <div class="inline-flex rounded-lg bg-surface-900 p-0.5 border border-white/10 text-xs font-medium" role="group" aria-label="Language Switcher">
+          <button type="button" onclick="switchLanguage('de')" id="lang-btn-de" class="px-2.5 py-1 rounded-md transition text-white bg-brand-600 font-num">DE</button>
+          <button type="button" onclick="switchLanguage('en')" id="lang-btn-en" class="px-2.5 py-1 rounded-md transition text-surface-400 hover:text-white font-num">EN</button>
+          <button type="button" onclick="switchLanguage('fa')" id="lang-btn-fa" class="px-2.5 py-1 rounded-md transition text-surface-400 hover:text-white font-vazir">فارسی</button>
+        </div>
+
+        <!-- Share / Copy Profile Link Button -->
+        <button type="button" onclick="copyProfileLink()" class="p-2 text-surface-400 hover:text-white rounded-lg transition" title="Link kopieren / اشتراک‌گذاری لینک">
+          <i class="fa-solid fa-share-nodes text-sm"></i>
+        </button>
+
+        <!-- PDF Export Button (Generates Pristine 2-Page European Standard CV) -->
+        <button type="button" onclick="exportToPdf()" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg text-white bg-brand-600 hover:bg-brand-500 transition shadow-sm cursor-pointer whitespace-nowrap shrink-0" title="PDF herunterladen (DIN A4 2-Seiten Lebenslauf)">
+          <i class="fa-solid fa-file-pdf"></i>
+          <span class="hidden sm:inline" data-ui="btn_pdf">PDF Resume</span>
+        </button>
+
+        <!-- Complete Editor Mode Toggle -->
+        <button type="button" onclick="toggleEditMode()" id="edit-toggle-btn" class="inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-semibold rounded-lg transition bg-surface-900 border border-amber-500/40 text-amber-400 hover:bg-amber-500/10 cursor-pointer" title="سیستم ویرایشگر کامل (Visual CMS & Builder)">
+          <i class="fa-solid fa-pen-to-square text-xs"></i>
+          <span class="hidden lg:inline" data-ui="btn_editor_toggle">ویرایشگر</span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- LIVE EDIT BANNER (Advanced Visual CMS Mode Toolbar) -->
+  <div id="edit-banner" class="hidden bg-gradient-to-r from-amber-950/70 via-surface-900 to-amber-950/70 border-b border-amber-500/40 text-amber-300 px-4 py-3 text-xs no-print shadow-xl">
+    <div class="max-w-6xl mx-auto flex items-center justify-between flex-wrap gap-3">
+      <div class="flex items-center gap-2.5">
+        <span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping"></span>
+        <span class="font-bold text-sm text-white" data-ui="edit_banner_title">حالت ویرایشگر کامل فعال است:</span>
+        <span class="text-amber-200/90 text-xs hidden md:inline" data-ui="edit_banner_desc">روی هر متنی کلیک کنید تا درلحظه اصلاح شود یا با دکمه‌های زیر بخش جدید اضافه کنید.</span>
+      </div>
+      <div class="flex items-center gap-2 flex-wrap">
+        <button onclick="openEditorModal('timeline', 'work')" class="px-3 py-1.5 bg-brand-600 hover:bg-brand-500 text-white rounded-lg text-xs font-semibold shadow transition flex items-center gap-1.5 cursor-pointer">
+          <i class="fa-solid fa-plus"></i> <span data-ui="btn_add_work">+ سابقه کاری</span>
+        </button>
+        <button onclick="openEditorModal('timeline', 'edu')" class="px-3 py-1.5 bg-amber-600 hover:bg-amber-500 text-white rounded-lg text-xs font-semibold shadow transition flex items-center gap-1.5 cursor-pointer">
+          <i class="fa-solid fa-graduation-cap"></i> <span data-ui="btn_add_edu">+ سابقه تحصیلی</span>
+        </button>
+        <button onclick="openEditorModal('case')" class="px-3 py-1.5 bg-brand-600 hover:bg-brand-500 text-white rounded-lg text-xs font-semibold shadow transition flex items-center gap-1.5 cursor-pointer">
+          <i class="fa-solid fa-wrench"></i> <span data-ui="btn_add_case">+ پروژه مهندسی</span>
+        </button>
+        <button onclick="openEditorModal('skill')" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-xs font-semibold shadow transition flex items-center gap-1.5 cursor-pointer">
+          <i class="fa-solid fa-plus"></i> <span data-ui="btn_add_skill">+ مهارت فنی</span>
+        </button>
+        <div class="h-5 w-px bg-white/20 mx-1 hidden sm:block"></div>
+        <button onclick="exportStandaloneHtml()" class="px-2.5 py-1.5 bg-brand-700/80 hover:bg-brand-600 rounded-lg border border-brand-500/50 text-white text-xs font-semibold transition flex items-center gap-1.5 cursor-pointer" title="دانلود کل سایت به عنوان یک فایل مستقل index.html آماده برای آپلود در گیت‌هاب">
+          <i class="fa-solid fa-code"></i> <span data-ui="btn_download_html">دانلود فایل HTML</span>
+        </button>
+        <button onclick="exportDataJson()" class="px-2.5 py-1.5 bg-surface-800 hover:bg-surface-700 rounded-lg border border-white/10 text-surface-200 text-xs font-medium transition flex items-center gap-1.5 cursor-pointer" title="دانلود کل دیتای رزومه به فرمت JSON">
+          <i class="fa-solid fa-download"></i> <span data-ui="btn_export_json">خروجی JSON</span>
+        </button>
+        <button onclick="document.getElementById('import-json-file').click()" class="px-2.5 py-1.5 bg-surface-800 hover:bg-surface-700 rounded-lg border border-white/10 text-surface-200 text-xs font-medium transition flex items-center gap-1.5 cursor-pointer" title="بارگذاری فایل JSON رزومه">
+          <i class="fa-solid fa-upload"></i> <span data-ui="btn_import_json">ورود JSON</span>
+        </button>
+        <button onclick="openHelpModal()" class="px-2 py-1.5 bg-surface-800 hover:bg-surface-700 text-amber-300 rounded-lg border border-white/10 text-xs transition cursor-pointer" title="راهنمای سریع استفاده برای کاربر">
+          <i class="fa-solid fa-circle-question"></i> <span class="hidden sm:inline">راهنما</span>
+        </button>
+        <button onclick="resetDataToDefault()" class="p-1.5 bg-surface-800 hover:bg-red-900/40 text-surface-300 hover:text-red-300 rounded-lg border border-white/10 text-xs transition cursor-pointer" title="بازنشانی تمام داده‌ها به حالت پیش‌فرض اولیه">
+          <i class="fa-solid fa-rotate-left"></i>
+        </button>
+        <button onclick="toggleEditMode()" class="text-amber-400 hover:text-white p-1 text-base ml-2 cursor-pointer" title="خروج از ویرایشگر">✕</button>
+      </div>
+    </div>
+  </div>
+
+  <input type="file" id="import-json-file" class="hidden" accept=".json" onchange="importDataJson(event)" />
+
+  <!-- DEDICATED 2-PAGE EUROPEAN DIN A4 PRINT RESUME (HIDDEN ON SCREEN, SHOWN ONLY ON PRINT) -->
+  <div id="print-resume-dossier" class="hidden"></div>
+
+  <!-- MAIN WRAPPER (SCREEN MODE) -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-10 sm:py-14 flex-grow space-y-16">
+
+    <!-- HERO & EXECUTIVE DOSSIER -->
+    <section id="hero" class="relative space-y-7 pt-2">
+      
+      <!-- Subtle Ambient Glow -->
+      <div class="absolute -top-16 left-1/2 -translate-x-1/2 w-3/4 h-64 glow-accent pointer-events-none opacity-50"></div>
+
+      <div class="relative z-10 space-y-6">
+        
+        <!-- Metadata Line (Zero-Pill Discipline with Clear Legible Typography) -->
+        <div class="flex flex-wrap items-center gap-2.5 text-sm sm:text-base text-surface-300 font-medium">
+          <span class="text-brand-400 font-semibold" data-edit-path="profile.degree_badge">دانشجوی کارشناسی ارشد در دانشگاه فنی اینگولشتات (THI) آلمان</span>
+          <span aria-hidden="true" class="text-surface-600">·</span>
+          <span data-edit-path="profile.experience_badge">۸+ سال سابقه تخصصی در صنایع نفت، گاز و پتروشیمی</span>
+          <span aria-hidden="true" class="text-surface-600">·</span>
+          <span data-edit-path="profile.location">اینگولشتات، ایالت بایرن، آلمان</span>
+        </div>
+
+        <!-- Headline & Summary (Large, Clear, High-Contrast Text) -->
+        <div class="space-y-3.5">
+          <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight" data-edit-path="profile.name">
+            محسن کریم‌خواه
+          </h1>
+          <p class="text-lg sm:text-2xl font-semibold text-brand-400 leading-snug" data-edit-path="profile.title">
+            مهندس ارشد مکانیک | متخصص تجهیزات دوار، اورهال و نگهداری و تعمیرات
+          </p>
+          <p class="text-base sm:text-lg text-surface-200 max-w-3xl leading-relaxed pt-1" data-edit-path="profile.summary">
+            مهندس ارشد مکانیک و دانشجوی کارشناسی ارشد «توسعه در مهندسی مکانیک» در دانشگاه فنی اینگولشتات (THI) آلمان با بیش از ۸ سال سابقه اجرایی در صنایع پتروشیمی، تجهیزات بندری و دریایی. دارای تخصص عمیق در اورهال اساسی تجهیزات دوار، پمپ‌های فرآیندی (API 610)، مکانیکال سیل‌ها (API 682)، آنالیز ارتعاشات (ISO 10816)، تحلیل ریشه‌ای علل خرابی (RCFA) و اجرای منظم روتین‌های A و B نگهداری و تعمیرات. نویسنده کتاب تخصصی «سیستم‌های تخلیه پنوماتیک VIGAN».
+          </p>
+        </div>
+
+        <!-- EXECUTIVE CONTACT & DOSSIER CARDS (DEDICATED TEXTBOXES WITH MAILTO, TEL, LINKEDIN & MAPS) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
+          
+          <!-- Email Box (Click to mailto, or copy button) -->
+          <div class="glass-card rounded-xl p-3.5 flex items-center justify-between gap-3 group hover:border-brand-500/40 transition">
+            <a href="mailto:mohsen.karimkhah1993@gmail.com" class="flex items-center gap-3 overflow-hidden flex-grow cursor-pointer" title="ارسال ایمیل مستقیم (mailto)">
+              <div class="w-9 h-9 rounded-lg bg-brand-500/10 border border-brand-500/20 flex items-center justify-center shrink-0 text-brand-400 group-hover:scale-105 transition">
+                <i class="fa-solid fa-envelope text-sm"></i>
+              </div>
+              <div class="overflow-hidden">
+                <span class="text-[11px] font-semibold text-surface-400 block uppercase tracking-wider" data-ui="contact_label_email">ایمیل رسمی</span>
+                <span class="text-xs sm:text-sm font-medium text-white group-hover:text-brand-300 transition truncate block font-num" data-edit-path="profile.email">mohsen.karimkhah1993@gmail.com</span>
+              </div>
+            </a>
+            <button onclick="copyToClipboard('mohsen.karimkhah1993@gmail.com', 'ایمیل کپی شد / Copied')" class="p-1.5 text-surface-400 hover:text-white rounded-md hover:bg-surface-800 transition shrink-0 cursor-pointer" title="کپی ایمیل">
+              <i class="fa-regular fa-copy text-xs"></i>
+            </button>
+          </div>
+
+          <!-- Phone Box (Click to call / tel, or copy button) -->
+          <div class="glass-card rounded-xl p-3.5 flex items-center justify-between gap-3 group hover:border-brand-500/40 transition">
+            <a href="tel:+491632502956" class="flex items-center gap-3 overflow-hidden flex-grow cursor-pointer" title="تماس مستقیم (tel)">
+              <div class="w-9 h-9 rounded-lg bg-brand-500/10 border border-brand-500/20 flex items-center justify-center shrink-0 text-brand-400 group-hover:scale-105 transition">
+                <i class="fa-solid fa-phone text-sm"></i>
+              </div>
+              <div class="overflow-hidden">
+                <span class="text-[11px] font-semibold text-surface-400 block uppercase tracking-wider" data-ui="contact_label_phone">تلفن مستقیم (آلمان)</span>
+                <span class="text-xs sm:text-sm font-medium text-white group-hover:text-brand-300 transition truncate block font-num" dir="ltr" data-edit-path="profile.phone">+49 163 2502956</span>
+              </div>
+            </a>
+            <button onclick="copyToClipboard('+491632502956', 'شماره تماس کپی شد / Copied')" class="p-1.5 text-surface-400 hover:text-white rounded-md hover:bg-surface-800 transition shrink-0 cursor-pointer" title="کپی شماره">
+              <i class="fa-regular fa-copy text-xs"></i>
+            </button>
+          </div>
+
+          <!-- LinkedIn Box -->
+          <a href="https://linkedin.com/in/mohsenkarimkhah" target="_blank" rel="noopener noreferrer" class="glass-card rounded-xl p-3.5 flex items-center justify-between gap-3 group hover:border-brand-500/40 transition cursor-pointer" title="مشاهده پروفایل لینکدین">
+            <div class="flex items-center gap-3 overflow-hidden">
+              <div class="w-9 h-9 rounded-lg bg-brand-500/10 border border-brand-500/20 flex items-center justify-center shrink-0 text-brand-400 group-hover:scale-105 transition">
+                <i class="fa-brands fa-linkedin-in text-sm"></i>
+              </div>
+              <div class="overflow-hidden">
+                <span class="text-[11px] font-semibold text-surface-400 block uppercase tracking-wider" data-ui="contact_label_linkedin">لینکدین مهندسی</span>
+                <span class="text-xs sm:text-sm font-medium text-white group-hover:text-brand-300 transition truncate block font-num">/in/mohsenkarimkhah</span>
+              </div>
+            </div>
+            <div class="p-1.5 text-surface-400 group-hover:text-white transition shrink-0">
+              <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+            </div>
+          </a>
+
+          <!-- Location & Direct Message Box -->
+          <div class="glass-card rounded-xl p-3.5 flex items-center justify-between gap-3 group hover:border-brand-500/40 transition">
+            <a href="https://www.google.com/maps/search/?api=1&query=Ingolstadt,+Bavaria,+Germany" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 overflow-hidden flex-grow cursor-pointer" title="مشاهده روی نقشه گوگل">
+              <div class="w-9 h-9 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center shrink-0 text-emerald-400 group-hover:scale-105 transition">
+                <i class="fa-solid fa-location-dot text-sm"></i>
+              </div>
+              <div class="overflow-hidden">
+                <span class="text-[11px] font-semibold text-surface-400 block uppercase tracking-wider" data-ui="contact_label_location">محل سکونت</span>
+                <span class="text-xs sm:text-sm font-medium text-white group-hover:text-brand-300 transition truncate block" data-edit-path="profile.location">اینگولشتات، آلمان</span>
+              </div>
+            </a>
+            <button onclick="openInquiryModal()" class="px-2.5 py-1 bg-brand-600/30 hover:bg-brand-600 text-brand-300 hover:text-white rounded-md text-xs font-semibold transition shrink-0 flex items-center gap-1 cursor-pointer" title="ارسال پیام مستقیم">
+              <i class="fa-solid fa-paper-plane text-[10px]"></i>
+              <span data-ui="btn_quick_contact">تماس</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Executive Metric Strip (Numbers prominently formatted with .font-num) -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+          <div class="glass-card rounded-2xl p-5 space-y-1">
+            <span class="block text-3xl font-extrabold text-white tracking-tight font-num" data-edit-path="kpis.kpi1_val">+۸ سال</span>
+            <span class="text-sm font-medium text-surface-300 block leading-snug" data-edit-path="kpis.kpi1_desc">سابقه صنعتی در صنایع پتروشیمی و تجهیزات بندری</span>
+          </div>
+          <div class="glass-card rounded-2xl p-5 space-y-1">
+            <span class="block text-3xl font-extrabold text-brand-400 tracking-tight font-num" data-edit-path="kpis.kpi2_val">+۱۰۰ اورهال</span>
+            <span class="text-sm font-medium text-surface-300 block leading-snug" data-edit-path="kpis.kpi2_desc">اورهال اساسی پمپ‌ها و گیربکس‌های صنعتی</span>
+          </div>
+          <div class="glass-card rounded-2xl p-5 space-y-1">
+            <span class="block text-3xl font-extrabold text-amber-400 tracking-tight font-num" data-edit-path="kpis.kpi3_val">+۳۵٪ MTBF</span>
+            <span class="text-sm font-medium text-surface-300 block leading-snug" data-edit-path="kpis.kpi3_desc">ارتقای قابلیت اطمینان با RCFA و اصلاح سیل‌ها</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 1: ENGINEERING PROJECTS & CASE STUDIES -->
+    <section id="case-studies" class="space-y-6 pt-4">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-white/10 pb-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-white tracking-tight" data-edit-path="sections.cases_title">
+            پروژه‌های مهندسی و کیس‌استادی‌ها
+          </h2>
+          <p class="text-sm sm:text-base text-surface-300 mt-1" data-edit-path="sections.cases_subtitle">
+            شرح دقیق چالش‌های صنعتی، اقدامات فنی اجرا شده و نتایج مهندسی سنجش‌پذیر
+          </p>
+        </div>
+
+        <!-- Add Project Button -->
+        <div class="editor-control-btn hidden">
+          <button onclick="openEditorModal('case')" class="px-3.5 py-2 bg-brand-600 hover:bg-brand-500 text-white rounded-lg text-xs font-semibold shadow transition flex items-center gap-2 cursor-pointer">
+            <i class="fa-solid fa-plus"></i> <span data-ui="btn_add_case">+ افزودن پروژه جدید</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Case Studies List -->
+      <div class="space-y-6" id="cases-container"></div>
+    </section>
+
+    <!-- SECTION 2: PROFESSIONAL & ACADEMIC TIMELINE -->
+    <section id="timeline-section" class="space-y-6 pt-4">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-white/10 pb-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-white tracking-tight" data-edit-path="sections.timeline_title">
+            سوابق حرفه‌ای و تحصیلی
+          </h2>
+          <p class="text-sm sm:text-base text-surface-300 mt-1" data-edit-path="sections.timeline_subtitle">
+            رویدادهای زمانی صنعتی و دانشگاهی (قابلیت انتخاب تقویم شمسی و میلادی)
+          </p>
+        </div>
+
+        <!-- Filter Controls + Add Milestone in Edit Mode -->
+        <div class="flex items-center gap-3 interactive-controls flex-wrap">
+          <div class="inline-flex rounded-lg bg-surface-900 p-1 border border-white/10 text-xs sm:text-sm font-medium" role="group">
+            <button type="button" onclick="setTimelineFilter('all')" id="filter-btn-all" class="px-3.5 py-1.5 rounded-md transition text-white bg-surface-700 font-semibold cursor-pointer">
+              <span data-ui="filter_all">همه</span>
+            </button>
+            <button type="button" onclick="setTimelineFilter('work')" id="filter-btn-work" class="px-3.5 py-1.5 rounded-md transition text-surface-400 hover:text-white cursor-pointer">
+              <span data-ui="filter_work">شغلی</span>
+            </button>
+            <button type="button" onclick="setTimelineFilter('edu')" id="filter-btn-edu" class="px-3.5 py-1.5 rounded-md transition text-surface-400 hover:text-white cursor-pointer">
+              <span data-ui="filter_edu">تحصیلی</span>
+            </button>
+          </div>
+          
+          <div class="editor-control-btn hidden flex items-center gap-2">
+            <button onclick="openEditorModal('timeline', 'work')" class="px-3 py-1.5 bg-brand-600 hover:bg-brand-500 text-white rounded-lg text-xs font-semibold shadow transition cursor-pointer">
+              <i class="fa-solid fa-plus mr-1 rtl:mr-0 rtl:ml-1"></i> سابقه کاری
+            </button>
+            <button onclick="openEditorModal('timeline', 'edu')" class="px-3 py-1.5 bg-amber-600 hover:bg-amber-500 text-white rounded-lg text-xs font-semibold shadow transition cursor-pointer">
+              <i class="fa-solid fa-graduation-cap mr-1 rtl:mr-0 rtl:ml-1"></i> سابقه تحصیلی
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vertical Timeline with Glowing Indicator Dots -->
+      <div class="relative pl-6 sm:pl-8 rtl:pl-0 rtl:pr-6 rtl:sm:pr-8 space-y-8" id="timeline-container">
+        <!-- Vertical Spine -->
+        <div class="absolute left-2 sm:left-2.5 rtl:left-auto rtl:right-2 rtl:sm:right-2.5 top-3 bottom-3 w-px bg-surface-700"></div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: TECHNICAL COMPETENCIES & CERTIFICATES -->
+    <section id="competencies-section" class="space-y-6 pt-4">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-white/10 pb-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-white tracking-tight" data-edit-path="sections.competencies_title">
+            شایستگی‌های فنی و گواهی‌نامه‌ها
+          </h2>
+          <p class="text-sm sm:text-base text-surface-300 mt-1" data-edit-path="sections.competencies_subtitle">
+            تسلط بر استانداردهای بین‌المللی مهندسی، نرم‌افزارهای CAD/CAE و مدارک رسمی
+          </p>
+        </div>
+        <div class="editor-control-btn hidden">
+          <button onclick="openEditorModal('skill')" class="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-xs font-semibold shadow transition flex items-center gap-2 cursor-pointer">
+            <i class="fa-solid fa-plus"></i> <span data-ui="btn_add_skill">+ افزودن مهارت جدید</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Competency Card 1 -->
+        <div class="glass-card rounded-2xl p-6 sm:p-7 space-y-4 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+              <h3 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2.5">
+                <i class="fa-solid fa-arrows-spin text-brand-400"></i>
+                <span data-edit-path="competencies.cat1_title">تجهیزات دوار و استانداردها</span>
+              </h3>
+              <button onclick="openEditorModal('skill', 'cat1')" class="editor-control-btn hidden text-brand-400 hover:text-white text-xs px-2.5 py-1 rounded bg-brand-500/20 font-semibold cursor-pointer" title="افزودن مهارت">+ افزودن</button>
+            </div>
+            <p class="text-sm text-surface-300 leading-relaxed mb-4" data-edit-path="competencies.cat1_desc">
+              نگهداری و تعمیرات پیشگیرانه روتین A/B، اورهال اساسی، آنالیز ارتعاشات و هم‌راستاسازی لیزری شفت.
+            </p>
+            <div class="space-y-3" id="competencies-list-1"></div>
+          </div>
+        </div>
+
+        <!-- Competency Card 2 -->
+        <div class="glass-card rounded-2xl p-6 sm:p-7 space-y-4 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+              <h3 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2.5">
+                <i class="fa-solid fa-cube text-amber-400"></i>
+                <span data-edit-path="competencies.cat2_title">طراحی، شبیه‌سازی و CAD/CAE</span>
+              </h3>
+              <button onclick="openEditorModal('skill', 'cat2')" class="editor-control-btn hidden text-amber-400 hover:text-white text-xs px-2.5 py-1 rounded bg-amber-500/20 font-semibold cursor-pointer" title="افزودن مهارت">+ افزودن</button>
+            </div>
+            <p class="text-sm text-surface-300 leading-relaxed mb-4" data-edit-path="competencies.cat2_desc">
+              مدل‌سازی سه‌بعدی قطعات، تحلیل المان محدود (FEA) و مکانیک سیالات محاسباتی (CFD).
+            </p>
+            <div class="space-y-3" id="competencies-list-2"></div>
+          </div>
+        </div>
+
+        <!-- Competency Card 3 -->
+        <div class="glass-card rounded-2xl p-6 sm:p-7 space-y-4 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+              <h3 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2.5">
+                <i class="fa-solid fa-certificate text-emerald-400"></i>
+                <span data-edit-path="competencies.cat3_title">گواهینامه‌های رسمی و هیدرولیک</span>
+              </h3>
+              <button onclick="openEditorModal('skill', 'cat3')" class="editor-control-btn hidden text-emerald-400 hover:text-white text-xs px-2.5 py-1 rounded bg-emerald-500/20 font-semibold cursor-pointer" title="افزودن مهارت">+ افزودن</button>
+            </div>
+            <p class="text-sm text-surface-300 leading-relaxed mb-4" data-edit-path="competencies.cat3_desc">
+              مدارک رسمی بین‌المللی و گواهی‌نامه‌های بازرسی و هیدرولیک.
+            </p>
+            <div class="space-y-3" id="competencies-list-3"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4: MONOGRAPH BOOK -->
+    <section id="education-section" class="space-y-6 pt-4">
+      <div class="border-b border-white/10 pb-4">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white tracking-tight" data-edit-path="book.section_title">
+          کتاب تخصصی و تالیف مهندسی
+        </h2>
+        <p class="text-sm sm:text-base text-surface-300 mt-1" data-edit-path="book.section_subtitle">
+          نویسنده کتاب مرجع سیستم‌های تخلیه پنوماتیک با حجم بالا در بنادر
+        </p>
+      </div>
+
+      <div class="glass-card rounded-2xl p-6 sm:p-8 space-y-5">
+        <div class="flex flex-wrap items-center justify-between gap-3 border-b border-white/5 pb-4">
+          <div>
+            <span class="text-xs sm:text-sm font-semibold text-brand-400 uppercase tracking-wider block mb-1">
+              <span data-edit-path="book.badge_official">مرجع فنی و هندبوک رسمی</span> · <span id="book-date-display" class="font-num font-bold">۱۳۹۸ (۲۰۱۹)</span>
+            </span>
+            <h3 class="text-xl sm:text-2xl font-bold text-white" data-edit-path="book.title">
+              سیستم‌های تخلیه پنوماتیک VIGAN: راه‌اندازی، اورهال و هیدرولیک
+            </h3>
+          </div>
+          <span class="text-xs sm:text-sm text-surface-300 font-medium" data-edit-path="book.org_tag">شرکت تایدواتر خاورمیانه · تجهیزات بندری</span>
+        </div>
+
+        <p class="text-sm sm:text-base text-surface-200 leading-relaxed" data-edit-path="book.description">
+          مجموعه مستند مهندسی پیرامون اجزای مکانیکی، آیرودینامیک و سیستم‌های الکتروهیدرولیک جرثقیل‌های تخلیه غلات کشتی. این کتاب مباحث مکانیک سیالات نازل‌های وکیوم، بلوئرهای روتس چندمرحله‌ای، فیلتراسیون غبار و هدایت هیدرولیک بوم را پوشش می‌دهد.
+        </p>
+
+        <!-- Chapter Matrix (Clear, legible descriptions) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1">
+          <div class="p-4 sm:p-5 rounded-xl bg-surface-900/90 border border-white/5 space-y-1.5">
+            <span class="text-brand-400 font-bold text-sm sm:text-base block" data-edit-path="book.ch1_title">۰۱ · آیرودینامیک و نازل مکش</span>
+            <p class="text-surface-300 leading-relaxed text-sm" data-edit-path="book.ch1_desc">جریان دوفازی جامد-گاز و محافظت از سایش دیواره نازل مکش.</p>
+          </div>
+          <div class="p-4 sm:p-5 rounded-xl bg-surface-900/90 border border-white/5 space-y-1.5">
+            <span class="text-brand-400 font-bold text-sm sm:text-base block" data-edit-path="book.ch2_title">۰۲ · بلوئرهای توربو روتس</span>
+            <p class="text-surface-300 leading-relaxed text-sm" data-edit-path="book.ch2_desc">تنظیم لقی چرخدنده‌ها (Backlash)، سیل‌های لابیرنت و پایش ارتعاشات.</p>
+          </div>
+          <div class="p-4 sm:p-5 rounded-xl bg-surface-900/90 border border-white/5 space-y-1.5">
+            <span class="text-brand-400 font-bold text-sm sm:text-base block" data-edit-path="book.ch3_title">۰۳ · سیستم‌های الکتروهیدرولیک</span>
+            <p class="text-surface-300 leading-relaxed text-sm" data-edit-path="book.ch3_desc">کالیبراسیون شیرهای پروپرشنال و تعویض پکینگ جک‌های تلسکوپی.</p>
+          </div>
+          <div class="p-4 sm:p-5 rounded-xl bg-surface-900/90 border border-white/5 space-y-1.5">
+            <span class="text-brand-400 font-bold text-sm sm:text-base block" data-edit-path="book.ch4_title">۰۴ · فیلتراسیون و ایمنی ATEX</span>
+            <p class="text-surface-300 leading-relaxed text-sm" data-edit-path="book.ch4_desc">تمیزکاری معکوس جت پالس و ایمنی غبارهای قابل احتراق ATEX.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/5 text-surface-300 py-8 text-sm no-print mt-16">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p data-edit-path="ui.footer_copy">&copy; ۲۰۲۶ محسن کریم‌خواه. دانشگاه فنی اینگولشتات (THI).</p>
+      <div class="flex items-center gap-6">
+        <a href="#hero" class="hover:text-white transition font-medium" data-ui="footer_top">بازگشت به بالا ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- DEDICATED STRUCTURED CMS MODAL EDITOR DIALOG -->
+  <div id="editor-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md hidden no-print" onclick="handleModalBackdropClick(event)">
+    <div class="bg-surface-900 border border-white/15 rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto p-6 sm:p-8 space-y-6 shadow-2xl text-surface-100" onclick="event.stopPropagation()">
+      
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between border-b border-white/10 pb-4">
+        <div>
+          <h3 id="modal-title" class="text-xl font-bold text-white">افزودن آیتم جدید</h3>
+          <p id="modal-subtitle" class="text-xs sm:text-sm text-surface-400 mt-0.5">مشخصات را وارد کنید تا مستقیماً به پورتفولیو اضافه شود</p>
+        </div>
+        <button onclick="closeEditorModal()" class="text-surface-400 hover:text-white text-xl p-1.5 rounded-lg hover:bg-surface-800 transition cursor-pointer">✕</button>
+      </div>
+
+      <!-- Modal Dynamic Form Container -->
+      <form id="modal-form" onsubmit="handleModalSubmit(event)" class="space-y-4">
+        <input type="hidden" id="modal-item-type" value="" />
+        <input type="hidden" id="modal-item-subtype" value="" />
+        <input type="hidden" id="modal-item-index" value="-1" />
+        
+        <div id="modal-fields-container" class="space-y-4">
+          <!-- Dynamically populated fields -->
+        </div>
+
+        <!-- Modal Actions -->
+        <div class="flex items-center justify-end gap-3 pt-4 border-t border-white/10">
+          <button type="button" onclick="closeEditorModal()" class="px-4 py-2 text-sm text-surface-300 hover:text-white bg-surface-800 hover:bg-surface-700 rounded-lg transition font-medium cursor-pointer">انصراف / Cancel</button>
+          <button type="submit" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-500 rounded-lg shadow-md transition cursor-pointer flex items-center gap-2">
+            <i class="fa-solid fa-floppy-disk"></i>
+            <span>ذخیره و ثبت / Save</span>
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- QUICK INQUIRY / CONTACT MODAL -->
+  <div id="inquiry-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md hidden no-print" onclick="closeInquiryModal()">
+    <div class="bg-surface-900 border border-white/15 rounded-2xl w-full max-w-lg p-6 sm:p-7 space-y-5 shadow-2xl text-surface-100" onclick="event.stopPropagation()">
+      <div class="flex items-center justify-between border-b border-white/10 pb-3">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-lg bg-brand-500/20 text-brand-400 flex items-center justify-center">
+            <i class="fa-solid fa-paper-plane text-xs"></i>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-white" data-ui="modal_inquiry_title">ارسال پیام مستقیم به مهندس</h3>
+            <p class="text-xs text-surface-400" data-ui="modal_inquiry_sub">ارتباط سریع برای فرصت‌های شغلی و همکاری فنی</p>
+          </div>
+        </div>
+        <button onclick="closeInquiryModal()" class="text-surface-400 hover:text-white text-lg p-1">✕</button>
+      </div>
+
+      <div class="space-y-3.5 text-sm">
+        <div>
+          <label class="block text-xs font-semibold text-surface-300 mb-1" data-ui="label_your_name">نام و سازمان شما</label>
+          <input type="text" id="inquiry-sender-name" placeholder="مثال: Dr. Schmidt / شرکت مهندسی" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" />
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-surface-300 mb-1" data-ui="label_msg_subject">موضوع پیام</label>
+          <input type="text" id="inquiry-subject" value="Inquiry regarding Engineering Role - Mohsen Karim khah" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white font-num focus:outline-none focus:border-brand-500" />
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-surface-300 mb-1" data-ui="label_msg_body">متن پیام یا دعوت به مصاحبه</label>
+          <textarea id="inquiry-body" rows="4" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" placeholder="متن پیام خود را بنویسید..."></textarea>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-end gap-2.5 pt-2 border-t border-white/10">
+        <button type="button" onclick="closeInquiryModal()" class="px-4 py-2 text-xs font-medium text-surface-300 hover:text-white bg-surface-800 rounded-lg">انصراف</button>
+        <button type="button" onclick="sendInquiryEmail()" class="px-4 py-2 text-xs font-semibold text-white bg-brand-600 hover:bg-brand-500 rounded-lg shadow flex items-center gap-2 cursor-pointer">
+          <i class="fa-solid fa-envelope"></i>
+          <span data-ui="btn_send_inquiry">ارسال مستقیم با ایمیل</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- HELP & GUIDE MODAL (FOR NON-TECHNICAL USERS) -->
+  <div id="help-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md hidden no-print" onclick="closeHelpModal()">
+    <div class="bg-surface-900 border border-white/15 rounded-2xl w-full max-w-lg p-6 sm:p-7 space-y-4 shadow-2xl text-surface-100" onclick="event.stopPropagation()">
+      <div class="flex items-center justify-between border-b border-white/10 pb-3">
+        <h3 class="text-lg font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-circle-question text-amber-400"></i>
+          <span data-ui="help_title">راهنمای ویرایش و مدیریت پورتفولیو</span>
+        </h3>
+        <button onclick="closeHelpModal()" class="text-surface-400 hover:text-white text-lg p-1">✕</button>
+      </div>
+      <div class="space-y-3 text-xs sm:text-sm text-surface-200 leading-relaxed">
+        <div class="flex items-start gap-2.5">
+          <span class="w-5 h-5 rounded-full bg-brand-500/20 text-brand-400 flex items-center justify-center shrink-0 font-bold text-xs mt-0.5">۱</span>
+          <p><strong class="text-white">ویرایش درجا:</strong> کافیست دکمه زرد رنگ «ویرایشگر» را فعال کنید. سپس روی هر متنی کلیک کرده و تایپ کنید؛ تغییرات بلافاصله ذخیره می‌شوند.</p>
+        </div>
+        <div class="flex items-start gap-2.5">
+          <span class="w-5 h-5 rounded-full bg-brand-500/20 text-brand-400 flex items-center justify-center shrink-0 font-bold text-xs mt-0.5">۲</span>
+          <p><strong class="text-white">افزودن و حذف سوابق:</strong> از دکمه‌های بالای نوار ویرایشگر یا دکمه‌های روی کارت‌ها برای افزودن سوابق شغلی، تحصیلی و پروژه‌ها با فرم ساده استفاده کنید.</p>
+        </div>
+        <div class="flex items-start gap-2.5">
+          <span class="w-5 h-5 rounded-full bg-brand-500/20 text-brand-400 flex items-center justify-center shrink-0 font-bold text-xs mt-0.5">۳</span>
+          <p><strong class="text-white">دانلود نسخه نهایی:</strong> با زدن دکمه «دانلود فایل HTML»، یک فایل کامل و آماده تحویل می‌گیرید که می‌توانید مستقیماً در گیت‌هاب آپلود کنید.</p>
+        </div>
+      </div>
+      <div class="pt-2 text-right">
+        <button onclick="closeHelpModal()" class="px-4 py-1.5 bg-brand-600 text-white rounded-lg text-xs font-semibold">متوجه شدم</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div id="toast-container" class="fixed bottom-6 right-6 rtl:right-auto rtl:left-6 z-50 pointer-events-none no-print"></div>
+
+  <!-- JAVASCRIPT MASTER CMS & I18N ENGINE -->
+  <script>
+    /**
+     * MASTER TRILINGUAL DICTIONARY (ZERO ARTIFICIAL SYMBOLS, STRICT NATURAL PHRASING)
+     */
+    const INITIAL_I18N_DATA = {
+      de: {
+        profile: {
+          degree_badge: "Masterstudent (M.Eng.) an der Technischen Hochschule Ingolstadt",
+          experience_badge: "8+ Jahre fundierte Industrieerfahrung in rotierenden Maschinen",
+          location: "Ingolstadt, Bayern, Deutschland",
+          name: "Mohsen Karim khah",
+          email: "mohsen.karimkhah1993@gmail.com",
+          phone: "+49 163 2502956",
+          title: "Senior Maschinenbauingenieur | Spezialist für rotierende Ausrüstung, Überholung & Instandhaltung",
+          summary: "Erfahrener Maschinenbauingenieur und Masterstudent in \"Entwicklung im Maschinenbau\" an der Technischen Hochschule Ingolstadt (THI) mit über 8 Jahren fundierter Praxis in Petrochemie-, Hafen- und Marinetechnik. Spezialisiert auf Zentrifugalpumpen (API 610), Gleitringdichtungen (API 682), Schwingungsanalyse nach ISO 10816, Schadensursachenanalyse (RCFA) sowie strukturierte Routine A/B Überholungen. Buchautor des Fachwerks \"VIGAN Pneumatische Entladesysteme\"."
+        },
+        kpis: {
+          kpi1_val: "8+ Jahre",
+          kpi1_desc: "Industriepraxis in Petrochemie- & Hafenanlagen",
+          kpi2_val: "100+ Einheiten",
+          kpi2_desc: "Erfolgreiche Generalüberholungen von Pumpen & Getrieben",
+          kpi3_val: "+35% MTBF",
+          kpi3_desc: "Steigerung der Anlagenzuverlässigkeit durch RCFA & Dichtungsoptimierung"
+        },
+        print_header: {
+          name: "Mohsen Karim khah",
+          title: "Senior Maschinenbauingenieur | Masterstudent (M.Eng.) an der TH Ingolstadt",
+          spec: "Spezialist für rotierende Ausrüstung, Überholung (Routine A/B), API 610/682 & CAD/CAE",
+          location_label: "Ort:",
+          location_val: "Ingolstadt, Bayern, Deutschland",
+          phone_label: "Tel:",
+          phone_val: "+49 163 2502956",
+          email_label: "E-Mail:",
+          email_val: "mohsen.karimkhah1993@gmail.com",
+          linkedin_label: "LinkedIn:",
+          linkedin_val: "linkedin.com/in/mohsenkarimkhah"
+        },
+        sections: {
+          cases_title: "Ingenieurprojekte & Fallstudien",
+          cases_subtitle: "Konkrete Problemstellungen, durchgeführte technische Maßnahmen und messbare Ergebnisse",
+          timeline_title: "Beruflicher & Akademischer Werdegang",
+          timeline_subtitle: "Chronologische Meilensteine in Schwerindustrie und Universität",
+          competencies_title: "Fachkompetenzen & Zertifikate",
+          competencies_subtitle: "Internationale technische Normen, CAD/CAE-Tools und akkreditierte Qualifikationen"
+        },
+        cases: [
+          {
+            id: "case-1",
+            title: "Prozesspumpen-Überholung & MTBF-Steigerung",
+            org: "Marun Petrochemical Company",
+            date_gregorian: "01/2024 – 10/2025",
+            date_jalali: "دی ۱۴۰۲ – مهر ۱۴۰۴",
+            tag: "API 610 / API 682 Petrochemie",
+            problem_label: "Problemstellung:",
+            problem_desc: "Hohe Schwingungsspitzen und wiederkehrender Ausfall von Gleitringdichtungen an kritischen Olefin-Hochdruckpumpen führten zu ungeplanten Anlagenstillständen.",
+            action_label: "Ingenieurmaßnahme:",
+            action_desc: "Vollständige Demontage nach API 610, Upgrade des Spülplans von Plan 11 auf druckbeaufschlagtes Doppeldichtungssystem Plan 53, Laserausrichtung der Wellen (< 0,03 mm) und Feinwuchten der Laufräder nach ISO 1940 G 2.5.",
+            result_label: "Quantifiziertes Ergebnis:",
+            result_desc: "+35% Steigerung des MTBF, Schwinggeschwindigkeiten RMS unter 2,0 mm/s (ISO 10816 Zone A) und 18 Monate störungsfreier Dauerbetrieb."
+          },
+          {
+            id: "case-2",
+            title: "Getriebe-Reengineering & Schwingungsdiagnostik",
+            org: "Takht-E-Jamshid Petrochemical Co.",
+            date_gregorian: "02/2020 – 12/2023",
+            date_jalali: "بهمن ۱۳۹۸ – دی ۱۴۰۲",
+            tag: "SolidWorks CAD / ISO 10816",
+            problem_label: "Problemstellung:",
+            problem_desc: "Fortgeschrittenes Pitting an Schwerlastgetrieben von Rührwerken und extreme Lieferzeiten für originale Ersatzteile gefährdeten die Polymerisationslinie.",
+            action_label: "Ingenieurmaßnahme:",
+            action_desc: "3D-CAD-Modellierung der Wellen und Zahnradpaare in SolidWorks für zertifizierte Fertigung. Einführung schwingungsbasierter Zustandsüberwachung nach ISO 10816.",
+            result_label: "Quantifiziertes Ergebnis:",
+            result_desc: "Erkennung beginnender Wälzlagerschäden 4 Wochen vor kritischem Ausfall; Einsparung von über 40.000 € an Stillstandskosten."
+          },
+          {
+            id: "case-3",
+            title: "VIGAN Pneumatische Großentlader & Fachbuchpublikation",
+            org: "Tide Water Co.",
+            date_gregorian: "04/2018 – 02/2020",
+            date_jalali: "فروردین ۱۳۹۷ – بهمن ۱۳۹۸",
+            tag: "Pneumatik / Fachbuchmonografie",
+            problem_label: "Problemstellung:",
+            problem_desc: "Vakuumverlust und thermische Überlastung der Roots-Turbogebläse an 600 t/h kontinuierlichen Schiffsentladern unter maritimen Bedingungen.",
+            action_label: "Ingenieurmaßnahme:",
+            action_desc: "Generalüberholung der Drehkolbengebläse, Optimierung des Zahnflankenspiels und Labyrinthdichtungen. Verfassung des 180-seitigen Fachbuchs \"VIGAN Pneumatische Entladesysteme\" (2019).",
+            result_label: "Quantifiziertes Ergebnis:",
+            result_desc: "18% Reduktion des Filterdifferenzdrucks, Wiederherstellung der vollen Entladerate von 600 t/h und Implementierung des Handbuchs als Betriebsstandard."
+          },
+          {
+            id: "case-4",
+            title: "Schwere Marinemaschinen & Nassbagger-Hydraulik",
+            org: "Makin Co.",
+            date_gregorian: "02/2017 – 03/2018",
+            date_jalali: "بهمن ۱۳۹۵ – اسفند ۱۳۹۶",
+            tag: "Schiffsmaschinen & Hochdruckhydraulik",
+            problem_label: "Problemstellung:",
+            problem_desc: "Hydraulikdruckabfälle und Kavitationsschäden an Schneidkopf-Saugbaggern im anspruchsvollen Offshore-Einsatz.",
+            action_label: "Ingenieurmaßnahme:",
+            action_desc: "Instandsetzung von Proportionalventilen, Austausch von Zylinderdichtungen, Überholung von Caterpillar-Schiffsdieselmotoren und Unterwasser-Getriebeschmierung.",
+            result_label: "Quantifiziertes Ergebnis:",
+            result_desc: "Wiederherstellung der vollen Zugkraft der Winden und 25% Senkung ungeplanter Offshore-Ausfallzeiten."
+          },
+          {
+            id: "case-5",
+            title: "Analytische Optimierung von Routine A/B Wartungsintervallen",
+            org: "Ingenieurmethodik & Zuverlässigkeit",
+            date_gregorian: "2024 – 2025",
+            date_jalali: "۱۴۰۳ – ۱۴۰۴",
+            tag: "Reliability & Routine A/B",
+            problem_label: "Problemstellung:",
+            problem_desc: "Starre kalendarische Herstellerintervalle führten entweder zu vorzeitigem Bauteilwechsel oder unvorhergesehenem Verschleiß.",
+            action_label: "Ingenieurmaßnahme:",
+            action_desc: "Entwicklung eines analytischen Berechnungsmodells dynamischer Routine A (Wartung/Schmierung) und Routine B (Generalüberholung) Intervalle basierend auf ISO 10816 Schwingstärke, thermischer Lagerlast und Drehzahl.",
+            result_label: "Quantifiziertes Ergebnis:",
+            result_desc: "Präzise Vorhersage von Überholungsfenstern, 20% Einsparung unnötiger Schmierstoffwechsel und nahtlose Übernahme durch Instandhaltungsplaner."
+          }
+        ],
+        timeline: [
+          {
+            type: "edu",
+            badge: "Akademischer Track · Master",
+            title: "Master of Engineering (M.Eng.) Entwicklung im Maschinenbau",
+            org: "Technische Hochschule Ingolstadt (THI), Deutschland",
+            date_gregorian: "10/2025 – Present",
+            date_jalali: "مهر ۱۴۰۴ – اکنون",
+            location: "Ingolstadt, Bayern, Deutschland",
+            desc: "Schwerpunkte: Höhere Maschinendynamik, Schwingungsanalyse, FEA-Simulation, Produktentwicklung und Zuverlässigkeitstechnik."
+          },
+          {
+            type: "work",
+            badge: "Beruflicher Track · Petrochemie",
+            title: "Maschinenbauingenieur (Rotierende Ausrüstung)",
+            org: "Marun Petrochemical Company",
+            date_gregorian: "01/2024 – 10/2025",
+            date_jalali: "دی ۱۴۰۲ – مهر ۱۴۰۴",
+            location: "Sonderwirtschaftszone Mahshahr",
+            desc: "Zustandsüberwachung, Zuverlässigkeitsmanagement und Generalüberholung von über 45 Prozesspumpen in Olefin-Großanlagen.",
+            points: [
+              "API 610 Überholungen mehrstufiger Zentrifugalpumpen ohne Anlaufstörungen.",
+              "Steigerung der MTBF um 35% durch Umstellung auf Sperrdrucksysteme (Plan 53).",
+              "Fachliche Schulungen zu Wälzlager-Montage und zweiachsiger Laser-Optik-Ausrichtung."
+            ]
+          },
+          {
+            type: "work",
+            badge: "Beruflicher Track · Petrochemie",
+            title: "Instandhaltungsingenieur (Rotierende Maschinen)",
+            org: "Takht-E-Jamshid Petrochemical Co.",
+            date_gregorian: "02/2020 – 12/2023",
+            date_jalali: "بهمن ۱۳۹۸ – دی ۱۴۰۲",
+            location: "Sonderwirtschaftszone Mahshahr",
+            desc: "Planung und Durchführung von Routine A/B Überholungen an Industriegetrieben, Rührwerken und Hochdruck-Einspritzpumpen.",
+            points: [
+              "Generalüberholung von Schwerlastgetrieben mit Tragbild- und Flankenspielanalyse.",
+              "SolidWorks-Ersatzteilkonstruktion für lokale Fertigung unter Einhaltung strenger OEM-Toleranzen.",
+              "ISO 10816 Schwingungsüberwachung und Schadensfrüherkennung 4 Wochen vor Bauteilversagen."
+            ]
+          },
+          {
+            type: "work",
+            badge: "Beruflicher Track · Hafen-Infrastruktur",
+            title: "System- & Instandhaltungsingenieur",
+            org: "Tide Water Co.",
+            date_gregorian: "04/2018 – 02/2020",
+            date_jalali: "فروردین ۱۳۹۷ – بهمن ۱۳۹۸",
+            location: "Hafen Imam Khomeini",
+            desc: "Betreuung und Instandhaltung kontinuierlicher pneumatischer Schiffsentlader vom Typ VIGAN mit 600 t/h Umschlagleistung.",
+            points: [
+              "Autor des Fachbuchs \"VIGAN Pneumatische Entladesysteme\" (2019).",
+              "Komplette Überholung von Hochvakuum-Roots-Gebläsen und elektrohydraulischen Auslegern.",
+              "Optimierung der Puls-Jet-Abreinigung zur Reduzierung des Saugdruckverlusts um 18%."
+            ]
+          },
+          {
+            type: "work",
+            badge: "Beruflicher Track · Marinemaschinen",
+            title: "Maschinenbauingenieur (Schiffsanlagen)",
+            org: "Makin Co.",
+            date_gregorian: "02/2017 – 03/2018",
+            date_jalali: "بهمن ۱۳۹۵ – اسفند ۱۳۹۶",
+            location: "Khorramshahr / Persischer Golf",
+            desc: "Wartung und Instandsetzung von Schneidkopf-Saugbaggern (CSD), Schiffsantrieben und Decksmaschinen.",
+            points: [
+              "Instandhaltung schwerer Caterpillar- und Cummins-Marinediesel sowie Baggerpumpen.",
+              "Behebung akuter Störungen an Hochdruck-Hydrauliksystemen unter Offshore-Bedingungen."
+            ]
+          },
+          {
+            type: "edu",
+            badge: "Akademischer Track · Bachelor",
+            title: "Bachelor of Science (B.Sc.) Maschinenbau",
+            org: "Islamic Azad University of Ahvaz",
+            date_gregorian: "09/2011 – 09/2015",
+            date_jalali: "مهر ۱۳۹۰ – شهریور ۱۳۹۴",
+            location: "Ahvaz, Iran",
+            desc: "Grundlagenstudium: Thermodynamik, Strömungsmechanik, Festigkeitslehre, Maschinenelemente und Fertigungstechnik."
+          }
+        ],
+        competencies: {
+          cat1_title: "Rotierende Ausrüstung & Normen",
+          cat1_desc: "Routine A/B Instandhaltung, Generalüberholung, Schwingungsanalyse und Wellenausrichtung.",
+          cat2_title: "Konstruktion, Simulation & CAD/CAE",
+          cat2_desc: "3D-Modellierung, Finite-Elemente-Analyse (FEA) und Strömungssimulation (CFD).",
+          cat3_title: "Hydraulik & Fachzertifikate",
+          cat3_desc: "Akkreditierte Zertifizierungen in Industriehydraulik, Schweißprüfung und Beschichtung."
+        },
+        competencies_items: {
+          cat1: [
+            { name: "Kreiselpumpen & Hochdruckanlagen (API 610)", level: "Experte" },
+            { name: "Gleitringdichtungen & Spülpläne (API 682)", level: "Experte" },
+            { name: "Zweiachsige Laser-Wellenausrichtung", level: "Fortgeschritten" },
+            { name: "Schwingungsanalyse & Wälzlager (ISO 10816)", level: "Fortgeschritten" },
+            { name: "Präventive Instandhaltung (Routine A/B)", level: "Experte" },
+            { name: "Schadensursachenanalyse (RCFA)", level: "Fortgeschritten" }
+          ],
+          cat2: [
+            { name: "SolidWorks (CAD Baugruppen & Fertigungszeichnungen)", level: "Experte" },
+            { name: "ANSYS Mechanical & Fluent (FEA / CFD)", level: "Fortgeschritten" },
+            { name: "Abaqus (Spannungsanalyse & Nichtlinearität)", level: "Fortgeschritten" },
+            { name: "Festo Fluidsim (Hydraulik & Pneumatik)", level: "Experte" },
+            { name: "AutoCAD Mechanical (Fertigungszeichnungen)", level: "Experte" },
+            { name: "AVEVA PDMS (Rohrleitungsbau & Piping)", level: "Fortgeschritten" }
+          ],
+          cat3: [
+            { name: "Festo Industriehydraulik (HY511 Zertifikat)", level: "Zertifiziert" },
+            { name: "Schweißnahtprüfung (AWS D1.1 Inspection)", level: "Zertifiziert" },
+            { name: "Industrielackierung & Korrosionsschutz", level: "Zertifiziert" },
+            { name: "Hydraulikaggregate & Proportionalventile", level: "Experte" },
+            { name: "Sicherheitsstandards, DIN/ISO & ATEX", level: "Fortgeschritten" }
+          ]
+        },
+        book: {
+          section_title: "Fachbuchpublikation & Technische Monografie",
+          section_subtitle: "Autor des Referenzhandbuchs für pneumatische Schiffsentlader hoher Förderleistung",
+          badge_official: "Technisches Fachhandbuch",
+          date_display: "2019",
+          title: "VIGAN Pneumatische Entladesysteme: Betrieb, Überholung & Hydraulik",
+          org_tag: "Tide Water Co. · Port Infrastructure",
+          description: "Umfassende ingenieurwissenschaftliche Dokumentation der mechanischen Großsysteme pneumatischer Schiffsentlader. Behandelt Sauglanzen-Fluiddynamik, Roots-Turbogebläse, mehrstufige Entstaubungs- und Filtersysteme sowie elektrohydraulische Auslegersteuerung.",
+          ch1_title: "01 · Aerodynamik & Sauglanzen",
+          ch1_desc: "Zweiphasenströmung Luft/Schüttgut und Düsenverschleißschutz.",
+          ch2_title: "02 · Roots-Turbogebläse",
+          ch2_desc: "Zahnradspiel, Gleitringdichtungen und Schwingungsüberwachung.",
+          ch3_title: "03 · Elektrohydraulik",
+          ch3_desc: "Proportionalventil-Regelung und hydraulische Teleskopierung.",
+          ch4_title: "04 · Filtersysteme & ATEX",
+          ch4_desc: "Impuls-Jet Abreinigung und Staub-Explosionsschutz."
+        },
+        ui: {
+          status_badge: "Verfügbar für Ingenieurpositionen in Deutschland",
+          nav_cases: "Projekte",
+          nav_timeline: "Werdegang",
+          nav_competencies: "Kompetenzen",
+          nav_education: "Buch",
+          btn_pdf: "PDF Resume (DIN A4)",
+          cal_gregorian: "AD",
+          cal_jalali: "شمسی",
+          filter_all: "Alle",
+          filter_work: "Beruf",
+          filter_edu: "Ausbildung",
+          btn_editor_toggle: "Editor",
+          btn_add_case: "+ Neues Projekt",
+          btn_add_work: "+ Berufserfahrung",
+          btn_add_edu: "+ Ausbildung",
+          btn_add_skill: "+ Neue Kompetenz",
+          edit_banner_title: "Live-Editor Aktiv (Visual CMS):",
+          edit_banner_desc: "Texte direkt anklicken zum Bearbeiten. Über die Buttons oben neue Einträge hinzufügen.",
+          btn_download_html: "HTML Herunterladen",
+          btn_export_json: "JSON Export",
+          btn_import_json: "JSON Import",
+          btn_reset_default: "Zurücksetzen",
+          contact_label_email: "Offizielle E-Mail",
+          contact_label_phone: "Direktkontakt (Deutschland)",
+          contact_label_linkedin: "Engineering LinkedIn",
+          contact_label_location: "Wohnort",
+          btn_quick_contact: "Kontakt",
+          modal_inquiry_title: "Direktnachricht an den Ingenieur",
+          modal_inquiry_sub: "Schnelle Kontaktaufnahme für Ingenieurpositionen",
+          label_your_name: "Ihr Name & Organisation",
+          label_msg_subject: "Betreff",
+          label_msg_body: "Nachrichtentext",
+          btn_send_inquiry: "Per E-Mail senden",
+          help_title: "Anleitung: Portfolio bearbeiten",
+          footer_copy: "© 2026 Mohsen Karim khah. Technische Hochschule Ingolstadt (THI).",
+          footer_top: "Nach Oben ↑"
+        }
+      },
+
+      en: {
+        profile: {
+          degree_badge: "M.Eng. Candidate at Technische Hochschule Ingolstadt, Germany",
+          experience_badge: "8+ Years Industrial Track Record in Rotating Machinery",
+          location: "Ingolstadt, Bavaria, Germany",
+          name: "Mohsen Karim khah",
+          email: "mohsen.karimkhah1993@gmail.com",
+          phone: "+49 163 2502956",
+          title: "Senior Mechanical Engineer | Rotary Equipment, Reliability & Major Overhaul Specialist",
+          summary: "Experienced Mechanical Engineer and Master's student in 'Mechanical Engineering Development' at Technische Hochschule Ingolstadt (THI) with 8+ years of industrial practice across Petrochemical, Port Infrastructure, and Marine sectors. Specializing in Centrifugal Pumps (API 610), Mechanical Seals (API 682), Vibration Diagnostics (ISO 10816), Root Cause Failure Analysis (RCFA), and Routine A/B Overhauls. Author of technical reference book 'VIGAN Pneumatic Unloading Systems'."
+        },
+        kpis: {
+          kpi1_val: "8+ Years",
+          kpi1_desc: "Industrial Practice in Petrochemical & Port Logistics Plants",
+          kpi2_val: "100+ Units",
+          kpi2_desc: "Major Overhauls of Process Pumps, Blowers & Heavy Gearboxes",
+          kpi3_val: "+35% MTBF",
+          kpi3_desc: "Plant Reliability Improvement via RCFA & Mechanical Seal Upgrades"
+        },
+        print_header: {
+          name: "Mohsen Karim khah",
+          title: "Senior Mechanical Engineer | M.Eng. Candidate at THI Ingolstadt",
+          spec: "Specialist in Rotary Equipment, Major Overhaul (Routine A/B), API 610/682 & CAD/CAE",
+          location_label: "Location:",
+          location_val: "Ingolstadt, Bavaria, Germany",
+          phone_label: "Tel:",
+          phone_val: "+49 163 2502956",
+          email_label: "Email:",
+          email_val: "mohsen.karimkhah1993@gmail.com",
+          linkedin_label: "LinkedIn:",
+          linkedin_val: "linkedin.com/in/mohsenkarimkhah"
+        },
+        sections: {
+          cases_title: "Engineering Projects & Case Studies",
+          cases_subtitle: "Tangible problem statements, technical actions taken, and quantified engineering results",
+          timeline_title: "Professional & Academic Timeline",
+          timeline_subtitle: "Chronological milestones across heavy industry and academia",
+          competencies_title: "Technical Competencies & Certificates",
+          competencies_subtitle: "Mastery of international engineering codes, CAD/CAE tools, and accredited certifications"
+        },
+        cases: [
+          {
+            id: "case-1",
+            title: "Process Pump Overhaul & MTBF Enhancement",
+            org: "Marun Petrochemical Company",
+            date_gregorian: "01/2024 – 10/2025",
+            date_jalali: "دی ۱۴۰۲ – مهر ۱۴۰۴",
+            tag: "API 610 / API 682 Petrochemicals",
+            problem_label: "Problem Statement:",
+            problem_desc: "Chronic vibration peaks and premature seal face blistering on critical olefin high-pressure centrifugal pumps caused repeated unscheduled shutdowns.",
+            action_label: "Technical Action:",
+            action_desc: "Conducted full API 610 teardown. Upgraded mechanical seal piping from Plan 11 to pressurized dual barrier Plan 53, re-aligned shafts with dual-axis laser optics (< 0.03 mm tolerance), and precision balanced impellers to ISO 1940 G 2.5.",
+            result_label: "Quantified Result:",
+            result_desc: "+35% improvement in Mean Time Between Failures (MTBF), vibration RMS dropped below 2.0 mm/s (ISO 10816 Zone A), and zero unplanned outages over 18 months."
+          },
+          {
+            id: "case-2",
+            title: "Industrial Gearbox Re-Engineering & Vibration Diagnostics",
+            org: "Takht-E-Jamshid Petrochemical Co.",
+            date_gregorian: "02/2020 – 12/2023",
+            date_jalali: "بهمن ۱۳۹۸ – دی ۱۴۰۲",
+            tag: "SolidWorks CAD / ISO 10816",
+            problem_label: "Problem Statement:",
+            problem_desc: "Heavy industrial polymer agitator gearboxes suffered from accelerated gear tooth pitting and severe supply chain lead-times for OEM replacement parts.",
+            action_label: "Technical Action:",
+            action_desc: "Reverse-engineered worn gear sets and shafts into precision SolidWorks 3D models for qualified local manufacturing. Established periodic ISO 10816 vibration trend monitoring tracking inner/outer raceway defect frequencies.",
+            result_label: "Quantified Result:",
+            result_desc: "Detected incipient bearing fatigue 4 weeks prior to catastrophic failure, saving €40,000+ in potential downtime and gearbox housing damage."
+          },
+          {
+            id: "case-3",
+            title: "High-Capacity VIGAN Pneumatic Ship Unloaders & Reference Book",
+            org: "Tide Water Co.",
+            date_gregorian: "04/2018 – 02/2020",
+            date_jalali: "فروردین ۱۳۹۷ – بهمن ۱۳۹۸",
+            tag: "Pneumatics / Technical Monograph",
+            problem_label: "Problem Statement:",
+            problem_desc: "Vacuum loss and high blower discharge temperatures on 600 t/h continuous pneumatic ship unloaders in high-humidity marine conditions.",
+            action_label: "Technical Action:",
+            action_desc: "Executed comprehensive teardown, shaft seal refurbishment, and timing gear backlash reset of high-vacuum Roots rotary-lobe blowers. Authored the comprehensive 180-page technical monograph 'VIGAN Pneumatische Entladesysteme' (2019).",
+            result_label: "Quantified Result:",
+            result_desc: "18% reduction in suction filter differential pressure drop, restoration of rated 600 t/h vessel discharge capacity, and adoption of the book as the plant standard operating procedure."
+          },
+          {
+            id: "case-4",
+            title: "Marine Heavy Machinery & Dredger Hydraulic Systems",
+            org: "Makin Co.",
+            date_gregorian: "02/2017 – 03/2018",
+            date_jalali: "بهمن ۱۳۹۵ – اسفند ۱۳۹۶",
+            tag: "Marine Machinery & High-Pressure Hydraulics",
+            problem_label: "Problem Statement:",
+            problem_desc: "Hydraulic pressure drops and slurry cavitation on cutter suction dredgers operating in harsh saline offshore environments.",
+            action_label: "Technical Action:",
+            action_desc: "Repaired proportional directional valves, refurbished hydraulic cylinder packings, overhauled Caterpillar marine diesel prime movers, and standardized underwater gearbox lubrication.",
+            result_label: "Quantified Result:",
+            result_desc: "Restored full winch line-pull capacity and reduced offshore unscheduled downtime by 25%."
+          },
+          {
+            id: "case-5",
+            title: "Analytical Maintenance Interval Optimization Framework",
+            org: "Engineering Methodology",
+            date_gregorian: "2024 – 2025",
+            date_jalali: "۱۴۰۳ – ۱۴۰۴",
+            tag: "Reliability & Routine A/B",
+            problem_label: "Problem Statement:",
+            problem_desc: "Rigid static OEM calendar intervals caused either premature component replacements or missed emerging machinery wear.",
+            action_label: "Technical Action:",
+            action_desc: "Formulated an analytical reliability framework calculating dynamic Routine A (inspection/lube) and Routine B (major overhaul) windows based on ISO 10816 vibration severity, bearing thermal load, and operating hours.",
+            result_label: "Quantified Result:",
+            result_desc: "Predictive overhaul scheduling, 20% reduction in unnecessary lubricant flushes, and seamless adoption by maintenance planners."
+          }
+        ],
+        timeline: [
+          {
+            type: "edu",
+            badge: "Academic Track · Master's Degree",
+            title: "Master of Engineering (M.Eng.) Mechanical Engineering Development",
+            org: "Technische Hochschule Ingolstadt (THI), Germany",
+            date_gregorian: "10/2025 – Present",
+            date_jalali: "مهر ۱۴۰۴ – اکنون",
+            location: "Ingolstadt, Bavaria, Germany",
+            desc: "Focus: Advanced Machine Dynamics, Structural Vibration Analysis, FEA Simulation, Product Engineering, and Reliability Engineering."
+          },
+          {
+            type: "work",
+            badge: "Career Track · Petrochemicals",
+            title: "Mechanical Engineer (Rotating Equipment)",
+            org: "Marun Petrochemical Company",
+            date_gregorian: "01/2024 – 10/2025",
+            date_jalali: "دی ۱۴۰۲ – مهر ۱۴۰۴",
+            location: "Mahshahr Special Economic Zone",
+            desc: "Condition monitoring, reliability management, and turnaround overhauls for 45+ critical process pumps across major olefin production units.",
+            points: [
+              "Completed API 610 major overhauls of multistage centrifugal pumps with zero post-startup trips.",
+              "Enhanced MTBF by 35% through upgrading flushing configurations to dual pressurized Plan 53 seals.",
+              "Conducted technical training programs on rolling-element bearing mounting and dual-axis laser shaft alignment."
+            ]
+          },
+          {
+            type: "work",
+            badge: "Career Track · Petrochemicals",
+            title: "Maintenance Engineer (Rotating Machinery)",
+            org: "Takht-E-Jamshid Petrochemical Co.",
+            date_gregorian: "02/2020 – 12/2023",
+            date_jalali: "بهمن ۱۳۹۸ – دی ۱۴۰۲",
+            location: "Mahshahr Special Economic Zone",
+            desc: "Executed scheduled Routine A/B maintenance cycles on industrial gearboxes, heavy polymer mixers, and high-pressure chemical injection pumps.",
+            points: [
+              "Overhauled heavy gearboxes with precision tooth contact patterning and backlash verification.",
+              "Created SolidWorks 3D models for qualified domestic manufacturing adhering to OEM tolerances.",
+              "Established ISO 10816 vibration trend monitoring, detecting bearing inner/outer race defects 4 weeks ahead of failure."
+            ]
+          },
+          {
+            type: "work",
+            badge: "Career Track · Port Logistics",
+            title: "Systems & Maintenance Engineer",
+            org: "Tide Water Co.",
+            date_gregorian: "04/2018 – 02/2020",
+            date_jalali: "فروردین ۱۳۹۷ – بهمن ۱۳۹۸",
+            location: "Imam Khomeini Port Terminal",
+            desc: "Overhaul and maintenance engineering of VIGAN continuous pneumatic ship unloaders with vessel discharge capacities up to 600 t/h.",
+            points: [
+              "Authored technical monograph 'VIGAN Pneumatische Entladesysteme' in 2019.",
+              "Overhauled multi-stage Roots rotary-lobe vacuum blowers and electrohydraulic boom systems.",
+              "Reduced suction bag-filter differential pressure drop by 18% via pulse-jet reverse-air optimization."
+            ]
+          },
+          {
+            type: "work",
+            badge: "Career Track · Marine Machinery",
+            title: "Mechanical Engineer (Marine Dredging Fleet)",
+            org: "Makin Co.",
+            date_gregorian: "02/2017 – 03/2018",
+            date_jalali: "بهمن ۱۳۹۵ – اسفند ۱۳۹۶",
+            location: "Khorramshahr / Persian Gulf",
+            desc: "Troubleshooting, mechanical overhaul, and maintenance of cutter suction dredgers (CSD) and marine hydraulic deck machinery.",
+            points: [
+              "Maintained heavy Caterpillar and Cummins marine diesel engines, dredge pumps, and winches.",
+              "Diagnosed emergency hydraulic system failures and proportional directional valve malfunctions offshore."
+            ]
+          },
+          {
+            type: "edu",
+            badge: "Academic Track · Bachelor's Degree",
+            title: "Bachelor of Science (B.Sc.) Mechanical Engineering",
+            org: "Islamic Azad University of Ahvaz",
+            date_gregorian: "09/2011 – 09/2015",
+            date_jalali: "مهر ۱۳۹۰ – شهریور ۱۳۹۴",
+            location: "Ahvaz, Iran",
+            desc: "Core Engineering: Thermodynamics, Fluid Mechanics, Strength of Materials, Machine Design, and Industrial Manufacturing Processes."
+          }
+        ],
+        competencies: {
+          cat1_title: "Rotating Equipment & Standards",
+          cat1_desc: "Routine A/B preventive maintenance, major overhaul, vibration analysis, and laser shaft alignment.",
+          cat2_title: "Design, Simulation & CAD/CAE",
+          cat2_desc: "3D parametric modeling, Finite Element Analysis (FEA), and Computational Fluid Dynamics (CFD).",
+          cat3_title: "Hydraulics & Professional Certifications",
+          cat3_desc: "Accredited credentials in industrial hydraulics, welding inspection, and protective coatings."
+        },
+        competencies_items: {
+          cat1: [
+            { name: "Centrifugal & High-Pressure Pumps (API 610)", level: "Expert" },
+            { name: "Mechanical Seals & Flushing Plans (API 682)", level: "Expert" },
+            { name: "Dual-Axis Laser Optical Shaft Alignment", level: "Advanced" },
+            { name: "Vibration Analysis & Bearing Health (ISO 10816)", level: "Advanced" },
+            { name: "Routine A/B Preventive Maintenance", level: "Expert" },
+            { name: "Root Cause Failure Analysis (RCFA)", level: "Advanced" }
+          ],
+          cat2: [
+            { name: "SolidWorks (Complex Assemblies & Shop Drawings)", level: "Expert" },
+            { name: "ANSYS Mechanical & Fluent (FEA / CFD)", level: "Advanced" },
+            { name: "Abaqus (Stress Analysis & Non-Linear Mechanics)", level: "Advanced" },
+            { name: "Festo Fluidsim (Industrial Hydraulics & Pneumatics)", level: "Expert" },
+            { name: "AutoCAD Mechanical (Fabrication Blueprints)", level: "Expert" },
+            { name: "AVEVA PDMS (Plant Piping & Equipment Layout)", level: "Advanced" }
+          ],
+          cat3: [
+            { name: "Festo Industrial Hydraulics (HY511 Certificate)", level: "Certified" },
+            { name: "Welding Inspection (AWS D1.1 Certified)", level: "Certified" },
+            { name: "Industrial Protective Coating Inspection", level: "Certified" },
+            { name: "Hydraulic Power Units & Proportional Valves", level: "Expert" },
+            { name: "Safety Codes, DIN/ISO Standards & ATEX", level: "Advanced" }
+          ]
+        },
+        book: {
+          section_title: "Technical Book & Engineering Monograph",
+          section_subtitle: "Author of reference manual for high-throughput continuous pneumatic ship unloaders",
+          badge_official: "Official Technical Handbook",
+          date_display: "2019",
+          title: "VIGAN Pneumatic Unloading Systems: Commissioning, Overhaul & Hydraulics",
+          org_tag: "Tide Water Co. · Port Infrastructure",
+          description: "Authoritative 180-page engineering documentation of mechanical and fluid systems for pneumatic grain ship unloaders. Covers vacuum nozzle fluid dynamics, multistage Roots turbo blowers, reverse-jet pulse dust filtration, and electrohydraulic boom handling.",
+          ch1_title: "01 · Aerodynamics & Suction Nozzles",
+          ch1_desc: "Two-phase solid-gas flow dynamics and nozzle wear resistance.",
+          ch2_title: "02 · Roots Turbo-Blowers",
+          ch2_desc: "Backlash adjustment, labyrinth seal design, and vibration monitoring.",
+          ch3_title: "03 · Electrohydraulic Systems",
+          ch3_desc: "Proportional directional valve calibration and telescopic boom cylinders.",
+          ch4_title: "04 · Dust Filtration & ATEX Safety",
+          ch4_desc: "Reverse-jet pulse baghouse cleaning and combustible dust safety."
+        },
+        ui: {
+          status_badge: "Available for Engineering Roles in Germany",
+          nav_cases: "Projects",
+          nav_timeline: "Milestones",
+          nav_competencies: "Skills",
+          nav_education: "Book",
+          btn_pdf: "PDF Resume (DIN A4)",
+          cal_gregorian: "AD",
+          cal_jalali: "شمسی",
+          filter_all: "All",
+          filter_work: "Career",
+          filter_edu: "Academic",
+          btn_editor_toggle: "Editor",
+          btn_add_case: "+ New Project",
+          btn_add_work: "+ Career Milestone",
+          btn_add_edu: "+ Academic Degree",
+          btn_add_skill: "+ New Competency",
+          edit_banner_title: "Live Editor Active (Visual CMS):",
+          edit_banner_desc: "Click any text to edit directly. Use the buttons above to add new records.",
+          btn_download_html: "Download HTML",
+          btn_export_json: "JSON Export",
+          btn_import_json: "JSON Import",
+          btn_reset_default: "Reset Data",
+          contact_label_email: "Official Email",
+          contact_label_phone: "Direct Phone (Germany)",
+          contact_label_linkedin: "Engineering LinkedIn",
+          contact_label_location: "Location",
+          btn_quick_contact: "Contact",
+          modal_inquiry_title: "Direct Inquiry to Engineer",
+          modal_inquiry_sub: "Fast contact for engineering roles and interview requests",
+          label_your_name: "Your Name & Company",
+          label_msg_subject: "Subject",
+          label_msg_body: "Message / Interview Invitation",
+          btn_send_inquiry: "Send via Email",
+          help_title: "User Guide: Portfolio Editor",
+          footer_copy: "© 2026 Mohsen Karim khah. Technische Hochschule Ingolstadt (THI).",
+          footer_top: "Back to Top ↑"
+        }
+      },
+
+      fa: {
+        profile: {
+          degree_badge: "دانشجوی کارشناسی ارشد در دانشگاه فنی اینگولشتات (THI) آلمان",
+          experience_badge: "۸+ سال سابقه صنعتی در صنایع فرآیندی و تجهیزات دوار",
+          location: "اینگولشتات، ایالت بایرن، آلمان",
+          name: "محسن کریم‌خواه",
+          email: "mohsen.karimkhah1993@gmail.com",
+          phone: "+49 163 2502956",
+          title: "مهندس ارشد مکانیک | متخصص تجهیزات دوار، اورهال و نگهداری و تعمیرات",
+          summary: "مهندس ارشد مکانیک و دانشجوی کارشناسی ارشد «توسعه در مهندسی مکانیک» در دانشگاه فنی اینگولشتات (THI) آلمان با بیش از ۸ سال سابقه اجرایی در صنایع پتروشیمی، تجهیزات بندری و دریایی. دارای تخصص عمیق در اورهال اساسی تجهیزات دوار، پمپ‌های فرآیندی (API 610)، مکانیکال سیل‌ها (API 682)، آنالیز ارتعاشات (ISO 10816)، تحلیل ریشه‌ای علل خرابی (RCFA) و اجرای منظم روتین‌های A و B نگهداری و تعمیرات. نویسنده کتاب تخصصی «سیستم‌های تخلیه پنوماتیک VIGAN»."
+        },
+        kpis: {
+          kpi1_val: "+۸ سال",
+          kpi1_desc: "سابقه کار تخصصی در صنایع پتروشیمی و پایانه‌های بندری",
+          kpi2_val: "+۱۰۰ دستگاه",
+          kpi2_desc: "اورهال اساسی و موفق پمپ‌ها و گیربکس‌های صنعتی",
+          kpi3_val: "+۳۵٪ MTBF",
+          kpi3_desc: "ارتقای شاخص قابلیت اطمینان با RCFA و اصلاح سیل‌ها"
+        },
+        print_header: {
+          name: "محسن کریم‌خواه",
+          title: "مهندس ارشد مکانیک | دانشجوی کارشناسی ارشد در دانشگاه فنی اینگولشتات (THI) آلمان",
+          spec: "متخصص تجهیزات دوار، اورهال اساسی (روتین A/B)، استانداردهای API 610/682 و CAD/CAE",
+          location_label: "محل اقامت:",
+          location_val: "اینگولشتات، ایالت بایرن، آلمان",
+          phone_label: "شماره تماس:",
+          phone_val: "+49 163 2502956",
+          email_label: "ایمیل:",
+          email_val: "mohsen.karimkhah1993@gmail.com",
+          linkedin_label: "لینکدین:",
+          linkedin_val: "linkedin.com/in/mohsenkarimkhah"
+        },
+        sections: {
+          cases_title: "پروژه‌های مهندسی و کیس‌استادی‌ها",
+          cases_subtitle: "شرح دقیق چالش‌های صنعتی، اقدامات فنی اجرا شده و نتایج مهندسی سنجش‌پذیر",
+          timeline_title: "سوابق حرفه‌ای و تحصیلی",
+          timeline_subtitle: "رویدادهای زمانی صنعتی و دانشگاهی (قابلیت انتخاب تقویم شمسی و میلادی)",
+          competencies_title: "شایستگی‌های فنی و گواهی‌نامه‌ها",
+          competencies_subtitle: "تسلط بر استانداردهای بین‌المللی مهندسی، نرم‌افزارهای CAD/CAE و مدارک رسمی"
+        },
+        cases: [
+          {
+            id: "case-1",
+            title: "اورهال اساسی پمپ‌های فرآیندی و ارتقای شاخص MTBF",
+            org: "شرکت پتروشیمی مارون",
+            date_gregorian: "01/2024 – 10/2025",
+            date_jalali: "دی ۱۴۰۲ – مهر ۱۴۰۴",
+            tag: "API 610 / API 682 صنایع پتروشیمی",
+            problem_label: "چالش و مسئله مهندسی:",
+            problem_desc: "پیک‌های ارتعاشی مداوم و تاول‌زدگی زودرس سطوح آب‌بند مکانیکال سیل‌ها در پمپ‌های سانتریفیوژ فشار قوی الفین باعث توقفات ناخواسته و مکرر خط تولید می‌شد.",
+            action_label: "اقدام مهندسی:",
+            action_desc: "دمونتاژ کامل طبق API 610، ارتقای پلن پایپینگ آب‌بند از Plan 11 به سیستم تحت فشار دوگانه Plan 53، الاینمنت نوری لیزری دو محوره شفت‌ها (تلرانس کمتر از ۰.۰۳ میلی‌متر) و بالانس دینامیکی پروانه‌ها بر اساس ISO 1940 G 2.5.",
+            result_label: "نتیجه ملموس و کمی:",
+            result_desc: "ارتقای ۳۵ درصدی شاخص میانگین زمان بین خرابی‌ها (MTBF)، افت مقدار موثر ارتعاشات RMS به زیر ۲.۰ میلی‌متر بر ثانیه (ناحیه A استاندارد ISO 10816) و کارکرد پیوسته و بدون توقف به مدت ۱۸ ماه."
+          },
+          {
+            id: "case-2",
+            title: "مهندسی معکوس گیربکس‌های صنعتی و پایش ارتعاشات",
+            org: "شرکت پتروشیمی تخت‌جمشید",
+            date_gregorian: "02/2020 – 12/2023",
+            date_jalali: "بهمن ۱۳۹۸ – دی ۱۴۰۲",
+            tag: "SolidWorks CAD / ISO 10816",
+            problem_label: "چالش و مسئله مهندسی:",
+            problem_desc: "پیتینگ و سایش دندانه‌های گیربکس‌های سنگین میکسر خط پلیمریزاسیون و زمان طولانی تامین قطعات یدکی خارجی تداوم تولید را تهدید می‌کرد.",
+            action_label: "اقدام مهندسی:",
+            action_desc: "مدل‌سازی سه‌بعدی دقیق شفت‌ها و چرخدنده‌ها در نرم‌افزار SolidWorks جهت ساخت داخل. پیاده‌سازی پایش وضعیت ارتعاشات ادواری طبق استاندارد ISO 10816 و رصد فرکانس‌های نقص رینگ داخلی و خارجی رولربیرینگ‌ها.",
+            result_label: "نتیجه ملموس و کمی:",
+            result_desc: "تشخیص زودهنگام خستگی بیرینگ ۴ هفته پیش از خرابی فاجعه‌بار و صرفه‌جویی بیش از ۴۰ هزار یورو ناشی از پیشگیری از شکست پوسته گیربکس و توقف خط."
+          },
+          {
+            id: "case-3",
+            title: "تعمیرات اساسی تخلیه‌کننده‌های پنوماتیک کشتی VIGAN و تالیف کتاب",
+            org: "شرکت تایدواتر خاورمیانه",
+            date_gregorian: "04/2018 – 02/2020",
+            date_jalali: "فروردین ۱۳۹۷ – بهمن ۱۳۹۸",
+            tag: "Pneumatics / هندبوک تخصصی",
+            problem_label: "چالش و مسئله مهندسی:",
+            problem_desc: "افت فشار مکش و دمای بالای خروجی بلوئرهای روتس در دستگاه‌های تخلیه مداوم کشتی با ظرفیت ۶۰۰ تن در ساعت در شرایط رطوبت بالای دریایی.",
+            action_label: "اقدام مهندسی:",
+            action_desc: "دمونتاژ اساسی، نوسازی سیل‌های آب‌بندی شفت، تنظیم دقیق لقی چرخدنده‌ها (Backlash) در بلوئرهای وکیوم و تالیف جامع کتاب ۱۸۰ صفحه‌ای «سیستم‌های تخلیه پنوماتیک VIGAN» در سال ۱۳۹۸ (۲۰۱۹).",
+            result_label: "نتیجه ملموس و کمی:",
+            result_desc: "کاهش ۱۸ درصدی افت فشار بگ‌فیلترها، احیای نرخ نامی تخلیه ۶۰۰ تن در ساعت و تصویب کتاب تالیف‌شده به عنوان دستورالعمل استاندارد راهبری پایانه."
+          },
+          {
+            id: "case-4",
+            title: "ماشین‌آلات سنگین دریایی و هیدرولیک شناورهای لایروب",
+            org: "شرکت ماکین",
+            date_gregorian: "02/2017 – 03/2018",
+            date_jalali: "بهمن ۱۳۹۵ – اسفند ۱۳۹۶",
+            tag: "ماشین‌آلات دریایی و هیدرولیک فشار قوی",
+            problem_label: "چالش و مسئله مهندسی:",
+            problem_desc: "افت فشار مدارات هیدرولیک و کاویتاسیون پمپ‌های دوغاب در شناورهای لایروب کاتر ساکشن در شرایط آب شور و فراساحلی خلیج فارس.",
+            action_label: "اقدام مهندسی:",
+            action_desc: "سرویس شیرهای تناسبی (Proportional)، تعویض پکینگ‌های آب‌بندی جک‌های هیدرولیک، اورهال موتورهای دیزل دریایی Caterpillar و استانداردسازی روانکاری گیربکس‌های زیرآب.",
+            result_label: "نتیجه ملموس و کمی:",
+            result_desc: "بازیابی توان کششی کامل وینچ‌های لایروبی و کاهش ۲۵ درصدی توقفات کاری غیرمترقبه در پروژه‌های فراساحلی."
+          },
+          {
+            id: "case-5",
+            title: "تدوین متدولوژی تحلیلی بهینه‌سازی فواصل اورهال روتین A/B",
+            org: "پژوهش و روش‌شناسی مهندسی",
+            date_gregorian: "2024 – 2025",
+            date_jalali: "۱۴۰۳ – ۱۴۰۴",
+            tag: "Reliability & Routine A/B",
+            problem_label: "چالش و مسئله مهندسی:",
+            problem_desc: "فواصل تقویمی و ثابت سازندگان پمپ یا منجر به تعویض غیرضروری قطعات سالم و یا غفلت از خرابی‌های زودرس می‌شد.",
+            action_label: "اقدام مهندسی:",
+            action_desc: "طراحی مدل تحلیلی فواصل نت دینامیک برای روتین A (سرویس و روانکاری) و روتین B (اورهال کامل) مبتنی بر شدت ارتعاشات ISO 10816، بار حرارتی بیرینگ و سرعت دورانی کارکرد.",
+            result_label: "نتیجه ملموس و کمی:",
+            result_desc: "پیش‌بینی دقیق زمان‌بندی بازرسی، کاهش ۲۰ درصدی تخلیه و تعویض غیرضروری روانکارها و ایجاد دستورالعمل شفاف برای برنامه‌ریزان نت مجتمع‌ها."
+          }
+        ],
+        timeline: [
+          {
+            type: "edu",
+            badge: "تحصیلات آکادمیک · کارشناسی ارشد",
+            title: "کارشناسی ارشد مهندسی توسعه در ماشین‌آلات (M.Eng.)",
+            org: "دانشگاه فنی اینگولشتات (THI) آلمان",
+            date_gregorian: "10/2025 – Present",
+            date_jalali: "مهر ۱۴۰۴ – اکنون",
+            location: "اینگولشتات، ایالت بایرن، آلمان",
+            desc: "گرایش‌ها: دینامیک پیشرفته ماشین‌آلات، تحلیل ارتعاشات سازه‌ای، شبیه‌سازی FEA و مهندسی توسعه محصول."
+          },
+          {
+            type: "work",
+            badge: "سوابق صنعتی · صنایع پتروشیمی",
+            title: "مهندس مکانیک (تجهیزات دوار)",
+            org: "شرکت پتروشیمی مارون (Marun Petrochemical)",
+            date_gregorian: "01/2024 – 10/2025",
+            date_jalali: "دی ۱۴۰۲ – مهر ۱۴۰۴",
+            location: "منطقه ویژه ماهشهر",
+            desc: "مدیریت پایپایش وضعیت، قابلیت اطمینان و اورهال دوره‌ای بیش از ۴۵ پمپ فرآیندی در خطوط الفین.",
+            points: [
+              "اورهال اساسی پمپ‌های سانتریفیوژ چندمرحله‌ای طبق API 610 بدون توقف ناخواسته پس از استارت‌آپ.",
+              "افزایش ۳۵ درصدی شاخص MTBF با اصلاح پلن‌های فلاشینگ مکانیکال سیل (پلن ۱۱ و ۵۳).",
+              "برگزاری کارگاه‌های فنی درباره مونتاژ رولربیرینگ‌ها و الایمنت لیزری دو محوره شفت."
+            ]
+          },
+          {
+            type: "work",
+            badge: "سوابق صنعتی · صنایع پتروشیمی",
+            title: "مهندس نگهداری و تعمیرات (ماشین‌آلات دوار)",
+            org: "شرکت پتروشیمی تخت‌جمشید (Takht-E-Jamshid)",
+            date_gregorian: "02/2020 – 12/2023",
+            date_jalali: "بهمن ۱۳۹۸ – دی ۱۴۰۲",
+            location: "منطقه ویژه ماهشهر",
+            desc: "برنامه‌ریزی و اجرای روتین‌های A و B برای میکسرها، گیربکس‌های سنگین صنعتی و پمپ‌های تزریق فشار قوی.",
+            points: [
+              "اورهال اساسی گیربکس‌های سنگین صنعتی با تنظیم دقیق پترن تماس دندانه‌ها و لقی مجاز.",
+              "مدل‌سازی قطعات یدکی در SolidWorks و نظارت بر ساخت داخل با تلرانس OEM.",
+              "استقرار پایش ارتعاشات بر اساس ISO 10816 و تشخیص عیب بیرینگ ۴ هفته پیش از خرابی."
+            ]
+          },
+          {
+            type: "work",
+            badge: "سوابق صنعتی · پایانه‌های بندری",
+            title: "مهندس سیستم‌ها و نگهداری و تعمیرات",
+            org: "شرکت تایدواتر خاورمیانه (Tide Water Co.)",
+            date_gregorian: "04/2018 – 02/2020",
+            date_jalali: "فروردین ۱۳۹۷ – بهمن ۱۳۹۸",
+            location: "بندر امام خمینی",
+            desc: "پشتیبانی فنی دستگاه‌های تخلیه مداوم کشتی پنوماتیک مارک VIGAN با ظرفیت تا ۶۰۰ تن در ساعت.",
+            points: [
+              "تالیف کتاب تخصصی «سیستم‌های تخلیه پنوماتیک VIGAN» در سال ۲۰۱۹ (۱۳۹۸).",
+              "دمونتاژ کامل، اورهال و بالانس بلوئرهای وکیوم روتس و بوم‌های تلسکوپی هیدرولیک.",
+              "کاهش ۱۸ درصدی افت فشار مکش بگ‌فیلترها با بهینه‌سازی جت پالس معکوس."
+            ]
+          },
+          {
+            type: "work",
+            badge: "سوابق صنعتی · ماشین‌آلات دریایی",
+            title: "مهندس مکانیک (شناورهای لایروب)",
+            org: "شرکت ماکین (Makin Co.)",
+            date_gregorian: "02/2017 – 03/2018",
+            date_jalali: "بهمن ۱۳۹۵ – اسفند ۱۳۹۶",
+            location: "خرمشهر / خلیج فارس",
+            desc: "عیب‌یابی، تعمیرات مکانیکی و نگهداری شناورهای لایروب کاتر ساکشن (CSD) و تجهیزات بندری.",
+            points: [
+              "سرویس موتورهای سنگین دیزل دریایی (کاترپیلار/کامینز)، وینچ‌های هیدرولیک و پمپ‌های لایروبی.",
+              "رفع نقص اضطراری مدارهای هیدرولیک و شیرهای پروپرشنال در شرایط کار روی آب."
+            ]
+          },
+          {
+            type: "edu",
+            badge: "تحصیلات آکادمیک · کارشناسی",
+            title: "کارشناسی مهندسی مکانیک (B.Sc.)",
+            org: "دانشگاه آزاد اسلامی واحد اهواز",
+            date_gregorian: "09/2011 – 09/2015",
+            date_jalali: "مهر ۱۳۹۰ – شهریور ۱۳۹۴",
+            location: "اهواز، ایران",
+            desc: "پایه‌های علمی: ترمودینامیک، مکانیک سیالات، مقاومت مصالح، طراحی اجزای ماشین و فرآیندهای ساخت و تولید صنعتی."
+          }
+        ],
+        competencies: {
+          cat1_title: "تجهیزات دوار و استانداردها",
+          cat1_desc: "نگهداری و تعمیرات پیشگیرانه روتین A/B، اورهال اساسی، آنالیز ارتعاشات و هم‌راستاسازی لیزری شفت.",
+          cat2_title: "طراحی، شبیه‌سازی و CAD/CAE",
+          cat2_desc: "مدل‌سازی سه‌بعدی قطعات، تحلیل المان محدود (FEA) و مکانیک سیالات محاسباتی (CFD).",
+          cat3_title: "گواهینامه‌های رسمی و هیدرولیک",
+          cat3_desc: "مدارک رسمی بین‌المللی و گواهی‌نامه‌های بازرسی و هیدرولیک."
+        },
+        competencies_items: {
+          cat1: [
+            { name: "پمپ‌های گریز از مرکز و فشار بالا (API 610)", level: "فوق‌تخصصی" },
+            { name: "سیل‌های مکانیکی و پلن‌های فلاشینگ (API 682)", level: "فوق‌تخصصی" },
+            { name: "هم‌راستاسازی لیزری دو محوره شفت", level: "پیشرفته" },
+            { name: "آنالیز ارتعاشات و بیرینگ‌ها (ISO 10816)", level: "پیشرفته" },
+            { name: "نت پیشگیرانه دوره‌ای (Routine A/B)", level: "فوق‌تخصصی" },
+            { name: "تحلیل ریشه‌ای علل خرابی (RCFA)", level: "پیشرفته" }
+          ],
+          cat2: [
+            { name: "SolidWorks (طراحی قطعات پیچیده، اسمبلی و نقشه‌کشی)", level: "فوق‌تخصصی" },
+            { name: "ANSYS Mechanical & Fluent (تحلیل FEA / CFD)", level: "پیشرفته" },
+            { name: "Abaqus (تحلیل‌های تنش و مکانیک غیرخطی)", level: "پیشرفته" },
+            { name: "Festo Fluidsim (مدارهای هیدرولیک و پنوماتیک)", level: "فوق‌تخصصی" },
+            { name: "AutoCAD Mechanical (نقشه‌کشی اجرایی ساخت)", level: "فوق‌تخصصی" },
+            { name: "AVEVA PDMS (پایپینگ و چیدمان فرآیندی)", level: "پیشرفته" }
+          ],
+          cat3: [
+            { name: "گواهینامه هیدرولیک صنعتی فستو (Festo HY511)", level: "دارای مدرک" },
+            { name: "بازرسی جوش و اتصالات (AWS D1.1 Inspection)", level: "دارای مدرک" },
+            { name: "بازرسی رنگ و پوشش‌های ضدخوردگی صنعتی", level: "دارای مدرک" },
+            { name: "یونیت‌های هیدرولیک و شیرهای پروپرشنال", level: "فوق‌تخصصی" },
+            { name: "الزامات ایمنی، استانداردهای DIN/ISO و ATEX", level: "پیشرفته" }
+          ]
+        },
+        book: {
+          section_title: "کتاب تخصصی و تالیف مهندسی",
+          section_subtitle: "نویسنده کتاب مرجع سیستم‌های تخلیه پنوماتیک با حجم بالا در بنادر",
+          badge_official: "مرجع فنی و هندبوک رسمی",
+          date_display: "۱۳۹۸ (۲۰۱۹)",
+          title: "سیستم‌های تخلیه پنوماتیک VIGAN: راه‌اندازی، اورهال و هیدرولیک",
+          org_tag: "شرکت تایدواتر خاورمیانه · تجهیزات بندری",
+          description: "مجموعه مستند مهندسی پیرامون اجزای مکانیکی، آیرودینامیک و سیستم‌های الکتروهیدرولیک جرثقیل‌های تخلیه غلات کشتی. این کتاب مباحث مکانیک سیالات نازل‌های وکیوم، بلوئرهای روتس چندمرحله‌ای، فیلتراسیون غبار و هدایت هیدرولیک بوم را پوشش می‌دهد.",
+          ch1_title: "۰۱ · آیرودینامیک و نازل مکش",
+          ch1_desc: "جریان دوفازی جامد-گاز و محافظت از سایش دیواره نازل مکش.",
+          ch2_title: "۰۲ · بلوئرهای توربو روتس",
+          ch2_desc: "تنظیم لقی چرخدنده‌ها (Backlash)، سیل‌های لابیرنت و پایش ارتعاشات.",
+          ch3_title: "۰۳ · سیستم‌های الکتروهیدرولیک",
+          ch3_desc: "کالیبراسیون شیرهای پروپرشنال و تعویض پکینگ جک‌های تلسکوپی.",
+          ch4_title: "۰۴ · فیلتراسیون و ایمنی ATEX",
+          ch4_desc: "تمیزکاری معکوس جت پالس و ایمنی غبارهای قابل احتراق ATEX."
+        },
+        ui: {
+          status_badge: "آماده همکاری در موقعیت‌های مهندسی در آلمان",
+          nav_cases: "پروژه‌ها",
+          nav_timeline: "سوابق",
+          nav_competencies: "مهارت‌ها",
+          nav_education: "کتاب",
+          btn_pdf: "دانلود رزومه PDF (DIN A4)",
+          cal_gregorian: "میلادی",
+          cal_jalali: "شمسی",
+          filter_all: "همه",
+          filter_work: "شغلی",
+          filter_edu: "تحصیلی",
+          btn_editor_toggle: "ویرایشگر",
+          btn_add_case: "+ افزودن پروژه جدید",
+          btn_add_work: "+ سابقه کاری",
+          btn_add_edu: "+ سابقه تحصیلی",
+          btn_add_skill: "+ مهارت جدید",
+          edit_banner_title: "حالت ویرایشگر کامل فعال است (Visual CMS):",
+          edit_banner_desc: "روی هر متنی کلیک کنید تا درلحظه ادیت شود یا از دکمه‌های بالا برای افزودن سوابق استفاده کنید.",
+          btn_download_html: "دانلود فایل HTML",
+          btn_export_json: "خروجی JSON",
+          btn_import_json: "ورود JSON",
+          btn_reset_default: "بازنشانی",
+          contact_label_email: "ایمیل رسمی",
+          contact_label_phone: "تلفن مستقیم (آلمان)",
+          contact_label_linkedin: "لینکدین مهندسی",
+          contact_label_location: "محل سکونت",
+          btn_quick_contact: "تماس",
+          modal_inquiry_title: "ارسال پیام مستقیم به مهندس",
+          modal_inquiry_sub: "ارتباط سریع برای فرصت‌های شغلی و دعوت به مصاحبه",
+          label_your_name: "نام و سازمان شما",
+          label_msg_subject: "موضوع پیام",
+          label_msg_body: "متن پیام",
+          btn_send_inquiry: "ارسال با ایمیل",
+          help_title: "راهنمای استفاده از ویرایشگر",
+          footer_copy: "© ۲۰۲۶ محسن کریم‌خواه. دانشگاه فنی اینگولشتات (THI).",
+          footer_top: "بازگشت به بالا ↑"
+        }
+      }
+    };
+
+    /**
+     * STATE CONTROLLER
+     */
+    let currentLang = localStorage.getItem('mk_portfolio_lang') || 'de';
+    let currentCalendar = localStorage.getItem('mk_portfolio_cal') || (currentLang === 'fa' ? 'jalali' : 'gregorian');
+    let currentTimelineFilter = 'all'; // 'all' | 'work' | 'edu'
+    let isEditMode = false;
+    let appData = null;
+
+    try {
+      const stored = localStorage.getItem('mk_portfolio_data_v7');
+      if (stored) {
+        appData = JSON.parse(stored);
+      } else {
+        appData = JSON.parse(JSON.stringify(INITIAL_I18N_DATA));
+      }
+    } catch (e) {
+      appData = JSON.parse(JSON.stringify(INITIAL_I18N_DATA));
+    }
+
+    function init() {
+      switchLanguage(currentLang, false);
+      updateCalendarUI();
+
+      // Close modals on Escape
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeEditorModal();
+          closeInquiryModal();
+          closeHelpModal();
+        }
+      });
+    }
+
+    /**
+     * CALENDAR MODE TOGGLE
+     */
+    function setCalendarMode(mode) {
+      currentCalendar = mode;
+      localStorage.setItem('mk_portfolio_cal', mode);
+      updateCalendarUI();
+      renderCases(appData[currentLang]);
+      renderTimeline(appData[currentLang]);
+      updateBookDate();
+      renderPrintResume(appData[currentLang]);
+      showToast(mode === 'jalali' ? 'تقویم شمسی فعال شد' : 'Gregorian calendar active');
+    }
+
+    function updateCalendarUI() {
+      const btnGreg = document.getElementById('cal-btn-gregorian');
+      const btnJalali = document.getElementById('cal-btn-jalali');
+      if (btnGreg && btnJalali) {
+        if (currentCalendar === 'gregorian') {
+          btnGreg.className = "px-2.5 py-1 rounded-md transition text-white bg-brand-600 shadow-sm font-num";
+          btnJalali.className = "px-2.5 py-1 rounded-md transition text-surface-400 hover:text-white font-vazir";
+        } else {
+          btnGreg.className = "px-2.5 py-1 rounded-md transition text-surface-400 hover:text-white font-num";
+          btnJalali.className = "px-2.5 py-1 rounded-md transition text-white bg-brand-600 shadow-sm font-vazir";
+        }
+      }
+    }
+
+    function updateBookDate() {
+      const bookDateEl = document.getElementById('book-date-display');
+      if (bookDateEl) {
+        const d = appData[currentLang]?.book;
+        if (d && d.date_display) {
+          bookDateEl.innerText = d.date_display;
+        } else {
+          bookDateEl.innerText = currentCalendar === 'jalali' ? '۱۳۹۸' : '2019';
+        }
+      }
+    }
+
+    /**
+     * COPY PROFILE LINK
+     */
+    function copyProfileLink() {
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(window.location.href).then(() => {
+          showToast(currentLang === 'fa' ? 'لینک رزومه کپی شد' : currentLang === 'de' ? 'Link in Zwischenablage kopiert' : 'Profile link copied to clipboard');
+        });
+      }
+    }
+
+    /**
+     * SWITCH LANGUAGE CONTROLLER (Strict 100% i18n & BiDi)
+     */
+    function switchLanguage(lang, saveToStorage = true) {
+      if (!appData[lang]) lang = 'de';
+      currentLang = lang;
+      if (saveToStorage) {
+        localStorage.setItem('mk_portfolio_lang', lang);
+      }
+
+      if (lang === 'fa' && !localStorage.getItem('mk_portfolio_cal')) {
+        currentCalendar = 'jalali';
+      }
+
+      const html = document.documentElement;
+      html.setAttribute('lang', lang);
+
+      if (lang === 'fa') {
+        html.setAttribute('dir', 'rtl');
+        html.classList.add('font-vazir');
+      } else {
+        html.setAttribute('dir', 'ltr');
+        html.classList.remove('font-vazir');
+      }
+
+      // Update Nav Buttons
+      ['de', 'en', 'fa'].forEach(l => {
+        const btn = document.getElementById(`lang-btn-${l}`);
+        if (btn) {
+          if (l === lang) {
+            btn.className = `px-2.5 py-1 rounded-md transition text-white bg-brand-600 shadow-sm ${l === 'fa' ? 'font-vazir' : 'font-num'}`;
+          } else {
+            btn.className = `px-2.5 py-1 rounded-md transition text-surface-400 hover:text-white ${l === 'fa' ? 'font-vazir' : 'font-num'}`;
+          }
+        }
+      });
+
+      updateCalendarUI();
+      renderDOM();
+      updateBookDate();
+    }
+
+    /**
+     * TIMELINE FILTER CONTROLLER
+     */
+    function setTimelineFilter(filter) {
+      currentTimelineFilter = filter;
+      
+      const btnAll = document.getElementById('filter-btn-all');
+      const btnWork = document.getElementById('filter-btn-work');
+      const btnEdu = document.getElementById('filter-btn-edu');
+
+      [
+        { btn: btnAll, id: 'all' },
+        { btn: btnWork, id: 'work' },
+        { btn: btnEdu, id: 'edu' }
+      ].forEach(item => {
+        if (!item.btn) return;
+        if (item.id === filter) {
+          item.btn.className = "px-3.5 py-1.5 rounded-md transition text-white bg-surface-700 shadow-sm font-semibold cursor-pointer";
+        } else {
+          item.btn.className = "px-3.5 py-1.5 rounded-md transition text-surface-400 hover:text-white cursor-pointer";
+        }
+      });
+
+      renderTimeline(appData[currentLang]);
+    }
+
+    /**
+     * RENDER ALL DOM NODES AND ATTACH UNIVERSAL IN-PLACE EDITING
+     */
+    function renderDOM() {
+      const d = appData[currentLang];
+      if (!d) return;
+
+      // 1. All elements with data-edit-path
+      document.querySelectorAll('[data-edit-path]').forEach(el => {
+        const path = el.getAttribute('data-edit-path');
+        const val = getNestedValue(d, path);
+        if (val !== undefined && val !== null) {
+          el.innerText = val;
+        }
+        setupElementEditable(el, path);
+      });
+
+      // 2. UI Action Text
+      document.querySelectorAll('[data-ui]').forEach(el => {
+        const key = el.getAttribute('data-ui');
+        if (d.ui && d.ui[key]) {
+          el.innerText = d.ui[key];
+        }
+      });
+
+      // 3. Navigation Links
+      document.querySelectorAll('[data-nav]').forEach(el => {
+        const key = el.getAttribute('data-nav');
+        if (d.ui && d.ui[key]) {
+          el.innerText = d.ui[key];
+        }
+      });
+
+      // 4. Render Case Studies
+      renderCases(d);
+
+      // 5. Render Timeline
+      renderTimeline(d);
+
+      // 6. Render Competencies
+      renderCompetencies(d);
+
+      // 7. Render Pristine European 2-Page CV for Print
+      renderPrintResume(d);
+
+      // 8. Toggle visibility of Editor Controls (Add/Delete/Edit buttons)
+      document.querySelectorAll('.editor-control-btn').forEach(el => {
+        if (isEditMode) {
+          el.classList.remove('hidden');
+        } else {
+          el.classList.add('hidden');
+        }
+      });
+    }
+
+    function setupElementEditable(el, path) {
+      if (isEditMode) {
+        el.setAttribute('contenteditable', 'true');
+        el.onblur = function() {
+          const newVal = el.innerText.trim();
+          setNestedValue(appData[currentLang], path, newVal);
+          persistCustomData();
+          renderPrintResume(appData[currentLang]);
+          showToast(currentLang === 'fa' ? 'ذخیره شد' : 'Gespeichert / Saved');
+        };
+      } else {
+        el.removeAttribute('contenteditable');
+        el.onblur = null;
+      }
+    }
+
+    /**
+     * RENDER PRISTINE EUROPEAN DIN A4 2-PAGE RESUME FOR PRINT (EXECUTIVE STANDARD)
+     */
+    function renderPrintResume(d) {
+      const container = document.getElementById('print-resume-dossier');
+      if (!container || !d) return;
+
+      const isFa = currentLang === 'fa';
+      const isDe = currentLang === 'de';
+      const ph = d.print_header || {};
+
+      const workItems = (d.timeline || []).filter(t => t.type === 'work');
+      const eduItems = (d.timeline || []).filter(t => t.type === 'edu');
+      const cases = (d.cases || []).slice(0, 4);
+
+      container.innerHTML = `
+        <!-- PAGE 1: Header, Executive Summary, Core Competencies, Key Industrial Experience -->
+        <div class="print-page pb-3 text-slate-900">
+          
+          <!-- European Executive Header -->
+          <div class="flex justify-between items-start border-b-2 border-slate-900 pb-2.5 mb-3">
+            <div>
+              <h1 class="text-xl font-bold text-slate-900 tracking-tight leading-none">${d.profile?.name || ph.name}</h1>
+              <p class="text-[9pt] font-bold text-blue-900 mt-1">${d.profile?.title || ph.title}</p>
+              <p class="text-[8pt] text-slate-600 mt-0.5">${d.profile?.degree_badge || ''} · ${d.profile?.experience_badge || ''}</p>
+            </div>
+            <div class="text-right rtl:text-left text-[8pt] text-slate-700 space-y-0.5 font-num leading-tight shrink-0">
+              <p><span class="font-bold">${ph.phone_label || 'Tel:'}</span> <span dir="ltr">${d.profile?.phone || ph.phone_val}</span></p>
+              <p><span class="font-bold">${ph.email_label || 'E-Mail:'}</span> <span>${d.profile?.email || ph.email_val}</span></p>
+              <p><span class="font-bold">${ph.location_label || 'Ort:'}</span> <span>${d.profile?.location || ph.location_val}</span></p>
+              <p><span class="font-bold">${ph.linkedin_label || 'LinkedIn:'}</span> <span>${ph.linkedin_val || 'linkedin.com/in/mohsenkarimkhah'}</span></p>
+            </div>
+          </div>
+
+          <!-- Executive Summary -->
+          <div class="mb-3">
+            <h2 class="text-[9pt] font-bold text-slate-900 border-b border-slate-300 pb-0.5 mb-1 uppercase tracking-wide">
+              ${isFa ? 'خلاصه سوابق مدیریتی و فنی' : isDe ? 'Kurzprofil & Fachliche Ausrichtung' : 'Executive Profile Summary'}
+            </h2>
+            <p class="text-[8pt] leading-relaxed text-slate-800 text-justify">
+              ${d.profile?.summary || ''}
+            </p>
+          </div>
+
+          <!-- Core Competencies Matrix (3 Clean Columns) -->
+          <div class="mb-3">
+            <h2 class="text-[9pt] font-bold text-slate-900 border-b border-slate-300 pb-0.5 mb-1.5 uppercase tracking-wide">
+              ${isFa ? 'شایستگی‌های کلیدی و استانداردهای مهندسی' : isDe ? 'Kernkompetenzen & Technische Normen' : 'Core Technical Competencies'}
+            </h2>
+            <div class="grid grid-cols-3 gap-2.5 text-[7.5pt] leading-snug">
+              <div class="bg-slate-50 p-2 rounded border border-slate-200">
+                <span class="font-bold text-slate-900 block mb-0.5">${d.competencies?.cat1_title || 'Rotary Equipment'}</span>
+                <ul class="space-y-0.5 list-disc list-inside text-slate-700">
+                  ${(d.competencies_items?.cat1 || []).slice(0, 4).map(s => `<li>${s.name}</li>`).join('')}
+                </ul>
+              </div>
+              <div class="bg-slate-50 p-2 rounded border border-slate-200">
+                <span class="font-bold text-slate-900 block mb-0.5">${d.competencies?.cat2_title || 'CAD / CAE Tools'}</span>
+                <ul class="space-y-0.5 list-disc list-inside text-slate-700">
+                  ${(d.competencies_items?.cat2 || []).slice(0, 4).map(s => `<li>${s.name}</li>`).join('')}
+                </ul>
+              </div>
+              <div class="bg-slate-50 p-2 rounded border border-slate-200">
+                <span class="font-bold text-slate-900 block mb-0.5">${d.competencies?.cat3_title || 'Certificates'}</span>
+                <ul class="space-y-0.5 list-disc list-inside text-slate-700">
+                  ${(d.competencies_items?.cat3 || []).slice(0, 4).map(s => `<li>${s.name}</li>`).join('')}
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chronological Industrial Experience (Work Items) -->
+          <div>
+            <h2 class="text-[9pt] font-bold text-slate-900 border-b border-slate-300 pb-0.5 mb-2 uppercase tracking-wide">
+              ${isFa ? 'سوابق کاری و صنعتی (تجهیزات دوار و اورهال)' : isDe ? 'Berufliche Praxis & Industrieerfahrung' : 'Professional Engineering Experience'}
+            </h2>
+            <div class="space-y-2.5">
+              ${workItems.slice(0, 3).map(w => {
+                const date = currentCalendar === 'jalali' ? w.date_jalali : w.date_gregorian;
+                return `
+                  <div class="text-[8pt] page-break-avoid">
+                    <div class="flex justify-between items-baseline mb-0.5">
+                      <div>
+                        <span class="font-bold text-slate-900 text-[8.5pt]">${w.title}</span>
+                        <span class="text-slate-700 font-semibold"> · ${w.org}</span>
+                        <span class="text-slate-500 text-[7.5pt]"> (${w.location})</span>
+                      </div>
+                      <span class="font-num text-[8pt] font-semibold text-slate-700 shrink-0">${date}</span>
+                    </div>
+                    <p class="text-slate-700 mb-0.5 leading-snug">${w.desc}</p>
+                    ${w.points ? `
+                      <ul class="space-y-0.5 list-disc list-inside text-[7.5pt] text-slate-700">
+                        ${w.points.slice(0, 2).map(pt => `<li>${pt}</li>`).join('')}
+                      </ul>
+                    ` : ''}
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+
+        </div>
+
+        <!-- PAGE 2: Remaining Work, Academic Education, Key Case Studies, Book & Languages -->
+        <div class="print-page print-page-break pt-3 text-slate-900">
+          
+          ${workItems.length > 3 ? `
+            <div class="mb-3 page-break-avoid">
+              ${workItems.slice(3).map(w => {
+                const date = currentCalendar === 'jalali' ? w.date_jalali : w.date_gregorian;
+                return `
+                  <div class="text-[8pt] mb-2">
+                    <div class="flex justify-between items-baseline mb-0.5">
+                      <div>
+                        <span class="font-bold text-slate-900 text-[8.5pt]">${w.title}</span>
+                        <span class="text-slate-700 font-semibold"> · ${w.org}</span>
+                        <span class="text-slate-500 text-[7.5pt]"> (${w.location})</span>
+                      </div>
+                      <span class="font-num text-[8pt] font-semibold text-slate-700 shrink-0">${date}</span>
+                    </div>
+                    <p class="text-slate-700 leading-snug">${w.desc}</p>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          ` : ''}
+
+          <!-- Academic Education -->
+          <div class="mb-3.5 page-break-avoid">
+            <h2 class="text-[9pt] font-bold text-slate-900 border-b border-slate-300 pb-0.5 mb-1.5 uppercase tracking-wide">
+              ${isFa ? 'سوابق تحصیلی و دانشگاهی' : isDe ? 'Akademische Ausbildung' : 'Academic Education'}
+            </h2>
+            <div class="space-y-2 text-[8pt]">
+              ${eduItems.map(e => {
+                const date = currentCalendar === 'jalali' ? e.date_jalali : e.date_gregorian;
+                return `
+                  <div>
+                    <div class="flex justify-between items-baseline">
+                      <div>
+                        <span class="font-bold text-slate-900 text-[8.5pt]">${e.title}</span>
+                        <span class="text-slate-700 font-semibold"> · ${e.org}</span>
+                        <span class="text-slate-500 text-[7.5pt]"> (${e.location})</span>
+                      </div>
+                      <span class="font-num text-[8pt] font-semibold text-slate-700">${date}</span>
+                    </div>
+                    <p class="text-slate-600 text-[7.5pt] mt-0.5">${e.desc}</p>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+
+          <!-- Selected Key Engineering Case Studies -->
+          <div class="mb-3.5 page-break-avoid">
+            <h2 class="text-[9pt] font-bold text-slate-900 border-b border-slate-300 pb-0.5 mb-1.5 uppercase tracking-wide">
+              ${isFa ? 'پروژه‌های شاخص مهندسی (اقدامات و دستاوردهای سنجش‌پذیر)' : isDe ? 'Ausgewählte Ingenieurprojekte & Quantifizierte Erfolge' : 'Key Engineering Project Case Studies'}
+            </h2>
+            <div class="space-y-2 text-[7.5pt]">
+              ${cases.map(c => {
+                const date = currentCalendar === 'jalali' ? c.date_jalali : c.date_gregorian;
+                return `
+                  <div class="p-2 rounded border border-slate-200 bg-slate-50">
+                    <div class="flex justify-between items-baseline mb-0.5">
+                      <span class="font-bold text-slate-900 text-[8pt]">${c.title} <span class="font-semibold text-blue-800">(${c.tag})</span></span>
+                      <span class="font-num text-slate-600">${date}</span>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-1 text-slate-700">
+                      <div><strong class="text-red-800">${c.problem_label}</strong> ${c.problem_desc}</div>
+                      <div><strong class="text-blue-800">${c.action_label}</strong> ${c.action_desc}</div>
+                      <div><strong class="text-emerald-800">${c.result_label}</strong> ${c.result_desc}</div>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+
+          <!-- Monograph Book & Languages -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-[8pt] pt-1 page-break-avoid">
+            <div class="border border-slate-200 rounded p-2 bg-slate-50">
+              <span class="font-bold text-slate-900 block mb-0.5">
+                ${isFa ? 'تالیف کتاب مهندسی' : isDe ? 'Fachbuchpublikation' : 'Engineering Monograph'}
+              </span>
+              <p class="font-semibold text-slate-800 text-[8pt]">${d.book?.title || 'VIGAN Pneumatische Entladesysteme'}</p>
+              <p class="text-slate-600 text-[7.5pt] mt-0.5">${d.book?.org_tag || 'Tide Water Co.'} · ${d.book?.date_display || '2019'}</p>
+            </div>
+            <div class="border border-slate-200 rounded p-2 bg-slate-50">
+              <span class="font-bold text-slate-900 block mb-0.5">
+                ${isFa ? 'تسلط به زبان‌ها' : isDe ? 'Sprachkenntnisse' : 'Language Proficiencies'}
+              </span>
+              <p class="text-slate-800 text-[8pt] leading-relaxed">
+                ${isFa ? 'آلمانی (B2 - مسلط کاری) · انگلیسی (B2 - مسلط تخصصی) · فارسی (زبان مادری)' : isDe ? 'Deutsch (B2 - Arbeitsfähig) · Englisch (B2 - Verhandlungssicher) · Persisch (Muttersprache)' : 'German (B2 - Professional) · English (B2 - Professional Working) · Persian (Native)'}
+              </p>
+            </div>
+          </div>
+
+        </div>
+      `;
+    }
+
+    /**
+     * RENDER CASE STUDIES (With Prominent Readable Typography, JetBrains Mono Numbers & Controls)
+     */
+    function renderCases(d) {
+      const container = document.getElementById('cases-container');
+      if (!container || !d.cases) return;
+
+      container.innerHTML = d.cases.map((c, idx) => {
+        const activeDate = currentCalendar === 'jalali' ? c.date_jalali : c.date_gregorian;
+        const datePath = currentCalendar === 'jalali' ? `cases.${idx}.date_jalali` : `cases.${idx}.date_gregorian`;
+        return `
+          <article class="glass-card rounded-2xl p-6 sm:p-8 space-y-5 page-break-avoid relative group">
+            
+            <!-- Quick Actions Toolbar in Edit Mode -->
+            <div class="editor-control-btn ${isEditMode ? '' : 'hidden'} absolute top-4 right-4 rtl:right-auto rtl:left-4 z-20 flex items-center gap-1.5 shadow">
+              <button onclick="openEditorModal('case', null, ${idx})" class="px-2.5 py-1 bg-surface-800 hover:bg-surface-700 text-amber-300 border border-amber-500/30 text-xs rounded-md transition flex items-center gap-1 cursor-pointer" title="ویرایش کامل در فرم">
+                <i class="fa-solid fa-pen"></i> <span>ویرایش</span>
+              </button>
+              <button onclick="moveItem('cases', ${idx}, -1)" class="p-1 bg-surface-800 hover:bg-surface-700 text-surface-200 border border-white/10 text-xs rounded-md transition cursor-pointer" title="انتقال به بالا">
+                <i class="fa-solid fa-arrow-up"></i>
+              </button>
+              <button onclick="moveItem('cases', ${idx}, 1)" class="p-1 bg-surface-800 hover:bg-surface-700 text-surface-200 border border-white/10 text-xs rounded-md transition cursor-pointer" title="انتقال به پایین">
+                <i class="fa-solid fa-arrow-down"></i>
+              </button>
+              <button onclick="deleteCase(${idx})" class="px-2 py-1 bg-red-600/80 hover:bg-red-600 text-white text-xs rounded-md transition flex items-center gap-1 cursor-pointer" title="حذف این پروژه">
+                <i class="fa-solid fa-trash"></i> <span>حذف</span>
+              </button>
+            </div>
+
+            <!-- Header: Title, Org, Tag & Active Date (Clean Legible Sizing) -->
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-4">
+              <div class="pr-28 rtl:pr-0 rtl:pl-28">
+                <div class="flex flex-wrap items-center gap-2.5 mb-1.5">
+                  <h3 class="text-xl sm:text-2xl font-bold text-white tracking-tight" data-edit-path="cases.${idx}.title">
+                    ${c.title}
+                  </h3>
+                  <span class="text-sm font-semibold text-brand-400" data-edit-path="cases.${idx}.tag">· ${c.tag}</span>
+                </div>
+                <p class="text-sm sm:text-base font-semibold text-surface-300" data-edit-path="cases.${idx}.org">
+                  ${c.org}
+                </p>
+              </div>
+              <div class="text-sm font-num text-amber-400 font-bold shrink-0 bg-amber-500/10 px-3 py-1.5 rounded-lg border border-amber-500/20">
+                <i class="fa-regular fa-calendar mr-1.5 rtl:mr-0 rtl:ml-1.5"></i>
+                <span data-edit-path="${datePath}">${activeDate}</span>
+              </div>
+            </div>
+
+            <!-- Structured 3-Tier Case Body (Clean, Large, Readable 15px Font Size) -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 pt-1 text-sm sm:text-base">
+              
+              <!-- 1. Problem Statement -->
+              <div class="p-5 rounded-xl bg-surface-900/90 border border-white/5 space-y-2">
+                <span class="text-red-400 font-bold block text-xs sm:text-sm uppercase tracking-wider flex items-center gap-2" data-edit-path="cases.${idx}.problem_label">
+                  <i class="fa-solid fa-triangle-exclamation"></i>
+                  <span>${c.problem_label}</span>
+                </span>
+                <p class="text-surface-200 leading-relaxed text-sm sm:text-base" data-edit-path="cases.${idx}.problem_desc">
+                  ${c.problem_desc}
+                </p>
+              </div>
+
+              <!-- 2. Technical Action -->
+              <div class="p-5 rounded-xl bg-surface-900/90 border border-white/5 space-y-2">
+                <span class="text-brand-400 font-bold block text-xs sm:text-sm uppercase tracking-wider flex items-center gap-2" data-edit-path="cases.${idx}.action_label">
+                  <i class="fa-solid fa-wrench"></i>
+                  <span>${c.action_label}</span>
+                </span>
+                <p class="text-surface-200 leading-relaxed text-sm sm:text-base" data-edit-path="cases.${idx}.action_desc">
+                  ${c.action_desc}
+                </p>
+              </div>
+
+              <!-- 3. Quantified Result -->
+              <div class="p-5 rounded-xl bg-surface-900/90 border border-emerald-500/25 space-y-2">
+                <span class="text-emerald-400 font-bold block text-xs sm:text-sm uppercase tracking-wider flex items-center gap-2" data-edit-path="cases.${idx}.result_label">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>${c.result_label}</span>
+                </span>
+                <p class="text-surface-100 leading-relaxed text-sm sm:text-base font-medium" data-edit-path="cases.${idx}.result_desc">
+                  ${c.result_desc}
+                </p>
+              </div>
+
+            </div>
+
+          </article>
+        `;
+      }).join('');
+
+      container.querySelectorAll('[data-edit-path]').forEach(el => {
+        setupElementEditable(el, el.getAttribute('data-edit-path'));
+      });
+    }
+
+    /**
+     * RENDER TIMELINE SYSTEM (Large Readable Text, JetBrains Mono Dates, Actions)
+     */
+    function renderTimeline(d) {
+      const container = document.getElementById('timeline-container');
+      if (!container || !d.timeline) return;
+
+      const rail = container.querySelector('div.w-px');
+      container.innerHTML = '';
+      if (rail) container.appendChild(rail);
+
+      const filtered = d.timeline.filter(item => {
+        if (currentTimelineFilter === 'all') return true;
+        return item.type === currentTimelineFilter;
+      });
+
+      filtered.forEach((item) => {
+        const realIdx = d.timeline.indexOf(item);
+        const isEdu = item.type === 'edu';
+        const activeDate = currentCalendar === 'jalali' ? item.date_jalali : item.date_gregorian;
+        const datePath = currentCalendar === 'jalali' ? `timeline.${realIdx}.date_jalali` : `timeline.${realIdx}.date_gregorian`;
+        const nodeColor = isEdu ? 'border-amber-400 bg-surface-950 text-amber-400' : 'border-brand-500 bg-surface-950 text-brand-400';
+        const badgeColor = isEdu ? 'text-amber-400' : 'text-brand-400';
+
+        const card = document.createElement('article');
+        card.className = "timeline-item relative group page-break-avoid";
+        
+        card.innerHTML = `
+          <!-- Glowing Node Dot on Rail -->
+          <div class="absolute -left-[29px] sm:-left-[37px] rtl:-left-auto rtl:right-[-29px] rtl:sm:right-[-37px] top-2.5 w-4 h-4 rounded-full border-2 ${nodeColor} flex items-center justify-center transition group-hover:scale-125 shadow-lg shadow-brand-500/20">
+            <span class="w-1.5 h-1.5 rounded-full ${isEdu ? 'bg-amber-400' : 'bg-brand-500'}"></span>
+          </div>
+
+          <!-- Timeline Card -->
+          <div class="glass-card rounded-2xl p-6 sm:p-7 space-y-4 relative">
+            
+            <!-- Quick Actions Toolbar in Edit Mode -->
+            <div class="editor-control-btn ${isEditMode ? '' : 'hidden'} absolute top-4 right-4 rtl:right-auto rtl:left-4 z-20 flex items-center gap-1.5 shadow">
+              <button onclick="openEditorModal('timeline', '${item.type}', ${realIdx})" class="px-2.5 py-1 bg-surface-800 hover:bg-surface-700 text-amber-300 border border-amber-500/30 text-xs rounded-md transition flex items-center gap-1 cursor-pointer" title="ویرایش کامل در فرم">
+                <i class="fa-solid fa-pen"></i> <span>ویرایش</span>
+              </button>
+              <button onclick="moveItem('timeline', ${realIdx}, -1)" class="p-1 bg-surface-800 hover:bg-surface-700 text-surface-200 border border-white/10 text-xs rounded-md transition cursor-pointer" title="انتقال به بالا">
+                <i class="fa-solid fa-arrow-up"></i>
+              </button>
+              <button onclick="moveItem('timeline', ${realIdx}, 1)" class="p-1 bg-surface-800 hover:bg-surface-700 text-surface-200 border border-white/10 text-xs rounded-md transition cursor-pointer" title="انتقال به پایین">
+                <i class="fa-solid fa-arrow-down"></i>
+              </button>
+              <button onclick="deleteTimelineItem(${realIdx})" class="px-2 py-1 bg-red-600/80 hover:bg-red-600 text-white text-xs rounded-md transition flex items-center gap-1 cursor-pointer" title="این سابقه را حذف کن">
+                <i class="fa-solid fa-trash"></i> <span>حذف</span>
+              </button>
+            </div>
+
+            <!-- Metadata Line (Dates consistently using .font-num) -->
+            <div class="flex flex-wrap items-center justify-between gap-3 text-sm pr-28 rtl:pr-0 rtl:pl-28">
+              <div class="flex items-center gap-2">
+                <span class="font-bold ${badgeColor}" data-edit-path="timeline.${realIdx}.badge">${item.badge}</span>
+                <span aria-hidden="true" class="text-surface-600">·</span>
+                <span class="text-surface-300 font-medium" data-edit-path="timeline.${realIdx}.location">${item.location}</span>
+              </div>
+              <span class="text-amber-400 font-num font-bold flex items-center gap-1.5 bg-amber-500/10 px-3 py-1 rounded-md border border-amber-500/20 text-xs sm:text-sm">
+                <i class="fa-regular fa-clock"></i>
+                <span data-edit-path="${datePath}">${activeDate}</span>
+              </span>
+            </div>
+
+            <!-- Title & Institution/Company -->
+            <div>
+              <h3 class="text-xl sm:text-2xl font-bold text-white tracking-tight leading-snug" data-edit-path="timeline.${realIdx}.title">
+                ${item.title}
+              </h3>
+              <p class="text-base sm:text-lg font-semibold text-brand-400 mt-1" data-edit-path="timeline.${realIdx}.org">
+                ${item.org}
+              </p>
+            </div>
+
+            <!-- Summary (High-Contrast, Readable Size) -->
+            <p class="text-sm sm:text-base text-surface-200 leading-relaxed" data-edit-path="timeline.${realIdx}.desc">
+              ${item.desc}
+            </p>
+
+            <!-- Key points if available -->
+            ${item.points && item.points.length > 0 ? `
+              <ul class="pt-2 space-y-2 text-sm sm:text-base text-surface-200 border-t border-white/5">
+                ${item.points.map((pt, pIdx) => `
+                  <li class="flex items-start gap-2.5">
+                    <span class="text-brand-400 shrink-0 mt-1 text-base">•</span>
+                    <span class="leading-relaxed" data-edit-path="timeline.${realIdx}.points.${pIdx}">${pt}</span>
+                  </li>
+                `).join('')}
+              </ul>
+            ` : ''}
+
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+
+      container.querySelectorAll('[data-edit-path]').forEach(el => {
+        setupElementEditable(el, el.getAttribute('data-edit-path'));
+      });
+    }
+
+    /**
+     * RENDER COMPETENCIES (With High-Contrast Text Sizes, Vazirmatn Font & Level Badges)
+     */
+    function renderCompetencies(d) {
+      ['cat1', 'cat2', 'cat3'].forEach((catKey, i) => {
+        const listEl = document.getElementById(`competencies-list-${i+1}`);
+        if (!listEl || !d.competencies_items || !d.competencies_items[catKey]) return;
+
+        listEl.innerHTML = d.competencies_items[catKey].map((item, itemIdx) => `
+          <div class="flex items-center justify-between gap-3 py-2.5 border-b border-white/5 last:border-none group">
+            <span class="text-surface-100 text-sm sm:text-base font-medium leading-snug flex-grow" data-edit-path="competencies_items.${catKey}.${itemIdx}.name">${item.name}</span>
+            <div class="flex items-center gap-2 shrink-0">
+              <span class="text-brand-400 text-xs sm:text-sm font-semibold px-2.5 py-1 rounded-md bg-brand-500/10 border border-brand-500/20 whitespace-nowrap text-center font-vazir" data-edit-path="competencies_items.${catKey}.${itemIdx}.level">${item.level}</span>
+              <button onclick="deleteSkill('${catKey}', ${itemIdx})" class="editor-control-btn ${isEditMode ? '' : 'hidden'} text-red-400 hover:text-red-300 text-xs px-1.5 py-0.5 rounded hover:bg-red-500/20 transition cursor-pointer" title="حذف">✕</button>
+            </div>
+          </div>
+        `).join('');
+
+        listEl.querySelectorAll('[data-edit-path]').forEach(el => {
+          setupElementEditable(el, el.getAttribute('data-edit-path'));
+        });
+      });
+    }
+
+    /**
+     * UNIVERSAL ITEM REORDERING HELPER
+     */
+    function moveItem(arrayKey, index, direction) {
+      const arr = appData[currentLang][arrayKey];
+      if (!arr) return;
+      const newIndex = index + direction;
+      if (newIndex < 0 || newIndex >= arr.length) return;
+      const temp = arr[index];
+      arr[index] = arr[newIndex];
+      arr[newIndex] = temp;
+      persistCustomData();
+      renderDOM();
+      showToast(currentLang === 'fa' ? 'ترتیب جابجا شد' : 'Reordered');
+    }
+
+    /**
+     * DEDICATED STRUCTURED CMS MODAL CONTROLLER
+     */
+    function openEditorModal(type, subtype = null, editIndex = -1) {
+      const modal = document.getElementById('editor-modal');
+      const titleEl = document.getElementById('modal-title');
+      const subtitleEl = document.getElementById('modal-subtitle');
+      const fieldsContainer = document.getElementById('modal-fields-container');
+      const typeInput = document.getElementById('modal-item-type');
+      const subtypeInput = document.getElementById('modal-item-subtype');
+      const indexInput = document.getElementById('modal-item-index');
+
+      typeInput.value = type;
+      subtypeInput.value = subtype || '';
+      indexInput.value = editIndex;
+
+      const isFa = currentLang === 'fa';
+      const isDe = currentLang === 'de';
+      const isEditing = editIndex >= 0;
+
+      fieldsContainer.innerHTML = '';
+
+      if (type === 'timeline') {
+        const itemType = subtype || 'work';
+        const item = isEditing ? appData[currentLang].timeline[editIndex] : null;
+
+        titleEl.innerText = isEditing 
+          ? (isFa ? "ویرایش سابقه" : isDe ? "Meilenstein bearbeiten" : "Edit Milestone")
+          : (itemType === 'edu' ? (isFa ? "افزودن سابقه تحصیلی جدید" : isDe ? "Neue Ausbildung hinzufügen" : "Add Academic Degree") : (isFa ? "افزودن سابقه شغلی جدید" : isDe ? "Neue Berufserfahrung hinzufügen" : "Add Career Milestone"));
+
+        subtitleEl.innerText = isFa ? "مشخصات را وارد کنید و روی ذخیره بزنید" : "Enter details and click Save";
+
+        fieldsContainer.innerHTML = `
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "نوع رویداد" : "Type"}</label>
+              <select id="modal-field-type" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500">
+                <option value="work" ${itemType === 'work' ? 'selected' : ''}>${isFa ? "مسیر شغلی (صنعت)" : "Career (Industry)"}</option>
+                <option value="edu" ${itemType === 'edu' ? 'selected' : ''}>${isFa ? "مسیر تحصیلی (دانشگاه)" : "Academic (Education)"}</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "برچسب یا دسته‌بندی" : "Category Badge"}</label>
+              <input type="text" id="modal-field-badge" value="${item ? item.badge : (itemType === 'edu' ? (isFa ? 'تحصیلات آکادمیک · مقطع کارشناسی ارشد' : 'Academic Track · Degree') : (isFa ? 'سوابق صنعتی · صنایع پتروشیمی' : 'Career Track · Industry'))}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" required />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${itemType === 'edu' ? (isFa ? "مقطع و رشته تحصیلی" : "Degree & Major") : (isFa ? "عنوان سمت مهندسی" : "Job Title")}</label>
+              <input type="text" id="modal-field-title" value="${item ? item.title : ''}" placeholder="${isFa ? 'مثال: مهندس ارشد مکانیک' : 'e.g. Senior Mechanical Engineer'}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" required />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${itemType === 'edu' ? (isFa ? "دانشگاه یا موسسه" : "University") : (isFa ? "شرکت یا مجتمع صنعتی" : "Company / Plant")}</label>
+              <input type="text" id="modal-field-org" value="${item ? item.org : ''}" placeholder="${isFa ? 'مثال: پتروشیمی مارون' : 'e.g. Company Name'}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" required />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "تاریخ میلادی" : "Gregorian Date"}</label>
+              <input type="text" id="modal-field-date-greg" value="${item ? item.date_gregorian : '2024 – Present'}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white font-num focus:outline-none focus:border-brand-500" required />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "تاریخ شمسی" : "Jalali Date"}</label>
+              <input type="text" id="modal-field-date-jalali" value="${item ? item.date_jalali : '۱۴۰۳ – اکنون'}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white font-num focus:outline-none focus:border-brand-500" required />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "شهر و کشور" : "Location"}</label>
+              <input type="text" id="modal-field-location" value="${item ? item.location : (isFa ? 'اینگولشتات، ایالت بایرن، آلمان' : 'Ingolstadt, Germany')}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" required />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "شرح خلاصه مسئولیت‌ها یا سرفصل‌ها" : "Description / Overview"}</label>
+            <textarea id="modal-field-desc" rows="3" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" placeholder="${isFa ? 'شرح کوتاه...' : 'Overview...'}" required>${item ? item.desc : ''}</textarea>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "نکات کلیدی و دستاوردها (هر خط یک مورد)" : "Key Achievements (One per line)"}</label>
+            <textarea id="modal-field-points" rows="3" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" placeholder="${isFa ? 'دستاوردهای کلیدی...\nدستاورد دوم...' : 'Key achievement 1...\nKey achievement 2...'}">${item && item.points ? item.points.join('\n') : ''}</textarea>
+          </div>
+        `;
+      } else if (type === 'case') {
+        const item = isEditing ? appData[currentLang].cases[editIndex] : null;
+
+        titleEl.innerText = isEditing 
+          ? (isFa ? "ویرایش پروژه مهندسی" : isDe ? "Ingenieurprojekt bearbeiten" : "Edit Engineering Project")
+          : (isFa ? "افزودن پروژه مهندسی جدید" : isDe ? "Neues Ingenieurprojekt hinzufügen" : "Add Engineering Project");
+
+        subtitleEl.innerText = isFa ? "مسئله صنعتی، اقدام فنی و نتیجه را مشخص کنید" : "Specify Problem, Action, and Quantified Result";
+
+        fieldsContainer.innerHTML = `
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "عنوان پروژه" : "Project Title"}</label>
+              <input type="text" id="modal-field-title" value="${item ? item.title : ''}" placeholder="${isFa ? 'مثال: اورهال اساسی پمپ سانتریفیوژ' : 'e.g. Pump Overhaul'}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" required />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "شرکت یا کارفرما" : "Organization / Plant"}</label>
+              <input type="text" id="modal-field-org" value="${item ? item.org : ''}" placeholder="${isFa ? 'مثال: پتروشیمی مارون' : 'e.g. Plant Name'}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" required />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "تگ و استاندارد (API 610 و...)" : "Technical Tag"}</label>
+              <input type="text" id="modal-field-tag" value="${item ? item.tag : 'API 610 / Reliability'}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" required />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "تاریخ میلادی" : "Gregorian Date"}</label>
+              <input type="text" id="modal-field-date-greg" value="${item ? item.date_gregorian : '2024 – 2025'}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white font-num focus:outline-none focus:border-brand-500" required />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "تاریخ شمسی" : "Jalali Date"}</label>
+              <input type="text" id="modal-field-date-jalali" value="${item ? item.date_jalali : '۱۴۰۳ – ۱۴۰۴'}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white font-num focus:outline-none focus:border-brand-500" required />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-red-400 mb-1">${isFa ? "چالش و مسئله مهندسی (Problem Statement)" : "Problem Statement"}</label>
+            <textarea id="modal-field-problem" rows="2" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" placeholder="${isFa ? 'توضیح چالش، نقص تجهیز یا ارتعاشات...' : 'Describe technical challenge...'}" required>${item ? item.problem_desc : ''}</textarea>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-brand-400 mb-1">${isFa ? "اقدام فنی و مهندسی (Technical Action)" : "Technical Action"}</label>
+            <textarea id="modal-field-action" rows="2" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" placeholder="${isFa ? 'اقدامات فنی، دمونتاژ، اصلاح سیل یا الاینمنت...' : 'Actions taken...'}" required>${item ? item.action_desc : ''}</textarea>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-emerald-400 mb-1">${isFa ? "نتیجه ملموس و سنجش‌پذیر (Quantified Result)" : "Quantified Result"}</label>
+            <textarea id="modal-field-result" rows="2" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" placeholder="${isFa ? 'نتایج عددی، کاهش هزینه، ارتقای MTBF...' : 'Quantified metrics (+35% MTBF, zero trips)...'}" required>${item ? item.result_desc : ''}</textarea>
+          </div>
+        `;
+      } else if (type === 'skill') {
+        const catKey = subtype || 'cat1';
+        titleEl.innerText = isFa ? "افزودن مهارت فنی جدید" : "Add Technical Competency";
+        subtitleEl.innerText = isFa ? "مهارت یا نرم‌افزار مورد نظر را اضافه کنید" : "Add engineering skill or software";
+
+        fieldsContainer.innerHTML = `
+          <div>
+            <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "دسته‌بندی مهارت" : "Category"}</label>
+            <select id="modal-field-cat" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500">
+              <option value="cat1" ${catKey === 'cat1' ? 'selected' : ''}>${isFa ? "تجهیزات دوار و استانداردها" : "Rotating Equipment & Standards"}</option>
+              <option value="cat2" ${catKey === 'cat2' ? 'selected' : ''}>${isFa ? "طراحی، شبیه‌سازی و CAD/CAE" : "Design, Simulation & CAD/CAE"}</option>
+              <option value="cat3" ${catKey === 'cat3' ? 'selected' : ''}>${isFa ? "گواهینامه‌های رسمی و هیدرولیک" : "Hydraulics & Certifications"}</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "نام مهارت یا استاندارد" : "Skill / Standard Name"}</label>
+            <input type="text" id="modal-field-name" placeholder="${isFa ? 'مثال: تحلیل ارتعاشات پیشرفته' : 'e.g. Advanced Vibration Diagnostics'}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" required />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-surface-300 mb-1">${isFa ? "سطح تسلط یا وضعیت" : "Proficiency Level"}</label>
+            <input type="text" id="modal-field-level" value="${isFa ? 'پیشرفته' : 'Advanced'}" placeholder="${isFa ? 'فوق‌تخصصی / پیشرفته / دارای مدرک' : 'Expert / Advanced / Certified'}" class="w-full bg-surface-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-brand-500" required />
+          </div>
+        `;
+      }
+
+      modal.classList.remove('hidden');
+    }
+
+    function closeEditorModal() {
+      const modal = document.getElementById('editor-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function handleModalBackdropClick(e) {
+      if (e.target.id === 'editor-modal') {
+        closeEditorModal();
+      }
+    }
+
+    function handleModalSubmit(e) {
+      e.preventDefault();
+      const type = document.getElementById('modal-item-type').value;
+      const subtype = document.getElementById('modal-item-subtype').value;
+      const editIndex = parseInt(document.getElementById('modal-item-index').value, 10);
+      const isEditing = editIndex >= 0;
+      const isFa = currentLang === 'fa';
+      const isDe = currentLang === 'de';
+
+      if (type === 'timeline') {
+        const itemType = document.getElementById('modal-field-type').value;
+        const badge = document.getElementById('modal-field-badge').value.trim();
+        const title = document.getElementById('modal-field-title').value.trim();
+        const org = document.getElementById('modal-field-org').value.trim();
+        const dateGreg = document.getElementById('modal-field-date-greg').value.trim();
+        const dateJalali = document.getElementById('modal-field-date-jalali').value.trim();
+        const location = document.getElementById('modal-field-location').value.trim();
+        const desc = document.getElementById('modal-field-desc').value.trim();
+        const pointsRaw = document.getElementById('modal-field-points').value.trim();
+        const points = pointsRaw ? pointsRaw.split('\n').map(s => s.trim()).filter(Boolean) : [];
+
+        const record = {
+          type: itemType,
+          badge: badge,
+          title: title,
+          org: org,
+          date_gregorian: dateGreg,
+          date_jalali: dateJalali,
+          location: location,
+          desc: desc,
+          points: points
+        };
+
+        if (isEditing) {
+          appData[currentLang].timeline[editIndex] = record;
+        } else {
+          appData[currentLang].timeline.unshift(record);
+        }
+
+        persistCustomData();
+        renderTimeline(appData[currentLang]);
+        renderPrintResume(appData[currentLang]);
+        closeEditorModal();
+        showToast(isFa ? "سابقه با موفقیت ذخیره شد" : "Milestone saved successfully");
+
+      } else if (type === 'case') {
+        const title = document.getElementById('modal-field-title').value.trim();
+        const org = document.getElementById('modal-field-org').value.trim();
+        const tag = document.getElementById('modal-field-tag').value.trim();
+        const dateGreg = document.getElementById('modal-field-date-greg').value.trim();
+        const dateJalali = document.getElementById('modal-field-date-jalali').value.trim();
+        const problem = document.getElementById('modal-field-problem').value.trim();
+        const action = document.getElementById('modal-field-action').value.trim();
+        const result = document.getElementById('modal-field-result').value.trim();
+
+        const record = {
+          id: isEditing ? appData[currentLang].cases[editIndex].id : `case-${Date.now()}`,
+          title: title,
+          org: org,
+          tag: tag,
+          date_gregorian: dateGreg,
+          date_jalali: dateJalali,
+          problem_label: isFa ? "چالش و مسئله مهندسی:" : isDe ? "Problemstellung:" : "Problem Statement:",
+          problem_desc: problem,
+          action_label: isFa ? "اقدام مهندسی:" : isDe ? "Ingenieurmaßnahme:" : "Technical Action:",
+          action_desc: action,
+          result_label: isFa ? "نتیجه ملموس و کمی:" : isDe ? "Quantifiziertes Ergebnis:" : "Quantified Result:",
+          result_desc: result
+        };
+
+        if (isEditing) {
+          appData[currentLang].cases[editIndex] = record;
+        } else {
+          appData[currentLang].cases.unshift(record);
+        }
+
+        persistCustomData();
+        renderCases(appData[currentLang]);
+        renderPrintResume(appData[currentLang]);
+        closeEditorModal();
+        showToast(isFa ? "پروژه با موفقیت ذخیره شد" : "Project saved successfully");
+
+      } else if (type === 'skill') {
+        const catKey = document.getElementById('modal-field-cat').value;
+        const name = document.getElementById('modal-field-name').value.trim();
+        const level = document.getElementById('modal-field-level').value.trim();
+
+        if (!appData[currentLang].competencies_items) {
+          appData[currentLang].competencies_items = {};
+        }
+        if (!appData[currentLang].competencies_items[catKey]) {
+          appData[currentLang].competencies_items[catKey] = [];
+        }
+
+        appData[currentLang].competencies_items[catKey].push({ name, level });
+        persistCustomData();
+        renderCompetencies(appData[currentLang]);
+        renderPrintResume(appData[currentLang]);
+        closeEditorModal();
+        showToast(isFa ? "مهارت جدید افزوده شد" : "Skill added successfully");
+      }
+    }
+
+    function deleteCase(idx) {
+      if (confirm(currentLang === 'fa' ? "آیا این پروژه حذف شود؟" : "Dieses Projekt wirklich löschen?")) {
+        appData[currentLang].cases.splice(idx, 1);
+        persistCustomData();
+        renderCases(appData[currentLang]);
+        renderPrintResume(appData[currentLang]);
+        showToast("حذف شد / Gelöscht");
+      }
+    }
+
+    function deleteTimelineItem(idx) {
+      if (confirm(currentLang === 'fa' ? "آیا این سابقه از تایم‌لاین حذف شود؟" : "Diesen Meilenstein wirklich löschen?")) {
+        appData[currentLang].timeline.splice(idx, 1);
+        persistCustomData();
+        renderTimeline(appData[currentLang]);
+        renderPrintResume(appData[currentLang]);
+        showToast("حذف شد / Gelöscht");
+      }
+    }
+
+    function deleteSkill(catKey, idx) {
+      if (appData[currentLang].competencies_items?.[catKey]) {
+        appData[currentLang].competencies_items[catKey].splice(idx, 1);
+        persistCustomData();
+        renderCompetencies(appData[currentLang]);
+        renderPrintResume(appData[currentLang]);
+        showToast("حذف شد / Deleted");
+      }
+    }
+
+    /**
+     * INQUIRY & HELP MODALS CONTROLLER
+     */
+    function openInquiryModal() {
+      const modal = document.getElementById('inquiry-modal');
+      if (modal) modal.classList.remove('hidden');
+    }
+    function closeInquiryModal() {
+      const modal = document.getElementById('inquiry-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+    function sendInquiryEmail() {
+      const sender = document.getElementById('inquiry-sender-name')?.value || 'Recruiter';
+      const subject = document.getElementById('inquiry-subject')?.value || 'Engineering Inquiry';
+      const body = document.getElementById('inquiry-body')?.value || '';
+      const email = appData[currentLang]?.profile?.email || 'mohsen.karimkhah1993@gmail.com';
+      
+      const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("Sender: " + sender + "\n\n" + body)}`;
+      window.location.href = mailtoUrl;
+      closeInquiryModal();
+      showToast(currentLang === 'fa' ? 'نرم‌افزار ایمیل شما باز شد' : 'Mail-Client geöffnet');
+    }
+
+    function openHelpModal() {
+      const modal = document.getElementById('help-modal');
+      if (modal) modal.classList.remove('hidden');
+    }
+    function closeHelpModal() {
+      const modal = document.getElementById('help-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function getNestedValue(obj, path) {
+      if (!path) return undefined;
+      const parts = path.split('.');
+      let current = obj;
+      for (const part of parts) {
+        if (current === undefined || current === null) return undefined;
+        current = current[part];
+      }
+      return current;
+    }
+
+    function setNestedValue(obj, path, value) {
+      if (!path) return;
+      const parts = path.split('.');
+      let current = obj;
+      for (let i = 0; i < parts.length - 1; i++) {
+        const part = parts[i];
+        if (current[part] === undefined) {
+          current[part] = {};
+        }
+        current = current[part];
+      }
+      current[parts[parts.length - 1]] = value;
+    }
+
+    function toggleEditMode() {
+      isEditMode = !isEditMode;
+      document.body.classList.toggle('edit-active', isEditMode);
+      
+      const banner = document.getElementById('edit-banner');
+      if (banner) banner.classList.toggle('hidden', !isEditMode);
+
+      const btn = document.getElementById('edit-toggle-btn');
+      if (btn) {
+        if (isEditMode) {
+          btn.classList.add('bg-amber-500/20', 'text-amber-300', 'border-amber-400');
+        } else {
+          btn.classList.remove('bg-amber-500/20', 'text-amber-300', 'border-amber-400');
+        }
+      }
+
+      renderDOM();
+      showToast(isEditMode ? 'حالت ویرایشگر کامل فعال شد' : 'ویرایشگر بسته شد');
+    }
+
+    function persistCustomData() {
+      localStorage.setItem('mk_portfolio_data_v7', JSON.stringify(appData));
+    }
+
+    function exportStandaloneHtml() {
+      try {
+        let fullHtml = document.documentElement.outerHTML;
+        const currentDataString = JSON.stringify(appData, null, 2);
+        
+        // Ensure edit-active class is not saved in html
+        fullHtml = fullHtml.replace('class="edit-active"', '').replace('edit-active', '');
+        
+        // Inject current edited data as initial dictionary so file is 100% self-sufficient offline
+        const regex = /const INITIAL_I18N_DATA = \{[\s\S]*?\};\s*\/\*\*\s*\* STATE CONTROLLER/m;
+        if (regex.test(fullHtml)) {
+          fullHtml = fullHtml.replace(regex, `const INITIAL_I18N_DATA = ${currentDataString};\n\n    /**\n     * STATE CONTROLLER`);
+        }
+
+        const blob = new Blob(['<!DOCTYPE html>\n<html ' + fullHtml.substring(fullHtml.indexOf('<html') + 5)], { type: 'text/html;charset=utf-8' });
+        const downloadAnchor = document.createElement('a');
+        downloadAnchor.setAttribute("href", URL.createObjectURL(blob));
+        downloadAnchor.setAttribute("download", "index.html");
+        document.body.appendChild(downloadAnchor);
+        downloadAnchor.click();
+        downloadAnchor.remove();
+        showToast(currentLang === 'fa' ? 'فایل index.html مستقل دانلود شد (آماده برای گیت‌هاب)' : 'Standalone index.html heruntergeladen');
+      } catch (e) {
+        showToast('خطا در ایجاد فایل: ' + e.message);
+      }
+    }
+
+    function exportDataJson() {
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(appData, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", "mohsen_karimkhah_dossier.json");
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+      showToast('JSON Exportiert / Downloaded');
+    }
+
+    function importDataJson(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          const imported = JSON.parse(e.target.result);
+          if (imported.de && imported.en && imported.fa) {
+            appData = imported;
+            persistCustomData();
+            renderDOM();
+            showToast('JSON Erfolgreich importiert / Loaded');
+          } else {
+            alert('فرمت فایل نامعتبر است: فایل باید شامل کلیدهای de, en و fa باشد.');
+          }
+        } catch (err) {
+          alert('خطا در خواندن فایل: ' + err.message);
+        }
+      };
+      reader.readAsText(file);
+      event.target.value = '';
+    }
+
+    function resetDataToDefault() {
+      if (confirm(currentLang === 'fa' ? 'آیا به داده‌های اولیه بازنشانی شود؟ تمام تغییرات پاک خواهند شد.' : 'Auf Standarddaten zurücksetzen? Alle Änderungen werden verworfen.')) {
+        localStorage.removeItem('mk_portfolio_data_v7');
+        localStorage.removeItem('mk_portfolio_data_v6');
+        localStorage.removeItem('mk_portfolio_data_v5');
+        appData = JSON.parse(JSON.stringify(INITIAL_I18N_DATA));
+        renderDOM();
+        updateBookDate();
+        showToast('بازنشانی شد / Zurückgesetzt');
+      }
+    }
+
+    function exportToPdf() {
+      const wasEdit = isEditMode;
+      if (wasEdit) document.body.classList.remove('edit-active');
+      window.print();
+      if (wasEdit) document.body.classList.add('edit-active');
+    }
+
+    function copyToClipboard(text, message) {
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(() => {
+          showToast(message);
+        }).catch(() => {
+          showToast('کپی شد: ' + text);
+        });
+      }
+    }
+
+    function showToast(message) {
+      const container = document.getElementById('toast-container');
+      if (!container) return;
+
+      const toast = document.createElement('div');
+      toast.className = 'bg-surface-900 border border-brand-500/50 text-white text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow-2xl flex items-center gap-2.5 transform transition duration-200 opacity-0 translate-y-2 pointer-events-auto';
+      toast.innerHTML = `<span class="text-brand-400 font-bold">✓</span> <span>${message}</span>`;
+      container.appendChild(toast);
+
+      setTimeout(() => toast.classList.remove('opacity-0', 'translate-y-2'), 10);
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-2');
+        setTimeout(() => toast.remove(), 250);
+      }, 2500);
+    }
+
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
